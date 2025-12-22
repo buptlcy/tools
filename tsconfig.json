@@ -12,11 +12,8 @@
     "module": "esnext",
     "target": "es2020",
     // For nodejs:
-    "lib": ["esnext"],
+    "lib": ["esnext", "ES2020", "DOM", "DOM.Iterable"],
     "types": ["node"],
-    // and npm install -D @types/node
-
-    
 
     // Other Outputs
     "sourceMap": true,
@@ -28,13 +25,11 @@
     "exactOptionalPropertyTypes": true,
 
     // Style Options
-    // "noImplicitReturns": true,
-    // "noImplicitOverride": true,
-    // "noUnusedLocals": true,
-    // "noUnusedParameters": true,
-    // "noFallthroughCasesInSwitch": true,
-    // "noPropertyAccessFromIndexSignature": true,
-
+    "noImplicitAny": true,                       // 禁止隐式any
+    "strictNullChecks": true,                    // 严格空值检查
+    "noUnusedLocals": true,                      // 禁止未使用的变量
+    "noUnusedParameters": true,                  // 禁止未使用的参数
+    // "noImplicitReturns": true,                   // 强制函数返回值完整
     // Recommended Options
     "strict": true,
     "jsx": "react-jsx",
@@ -45,6 +40,13 @@
     "skipLibCheck": true,
 
     "moduleResolution": "bundler",
-    "esModuleInterop": true
+    "esModuleInterop": true,
+
+    "paths": { "@/*": ["./src/*"] },               // 别名配置（适配前端项目）
+    "outDir": "./dist",                          // 编译输出目录
+    "noEmit": false,                             // 允许输出编译文件（提交检查需开启）
+
+    "resolveJsonModule": true,                   // 支持导入JSON文件
+    "noEmitOnError": true                        // 编译错误时不输出文件
   }
 }
