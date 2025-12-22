@@ -6,3 +6,8 @@ node_modules/
 *.log
 # npm 锁文件（可选，建议保留 package-lock.json，这里仅示例）
 # package-lock.json
+.env
+.env.local
+node_modules
+dist
+.DS_Store
