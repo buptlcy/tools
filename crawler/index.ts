@@ -1,2 +1,4 @@
-console.log(1)
-console.log('1')
+import crawImage from './images'
+
+console.log('----运行爬虫脚本----')
+crawImage()
