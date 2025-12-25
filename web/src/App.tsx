@@ -1,6 +1,7 @@
 import { Layout } from 'antd'
 import { createBrowserRouter, Outlet, RouterProvider } from 'react-router-dom'
 import SiderMenu from './components/Menu'
+import { routes } from './router'
 
 const { Sider, Content } = Layout
 
@@ -23,16 +24,7 @@ const router = createBrowserRouter([
     {
         path: '/', // 根路径：加载布局框架
         element: <AppLayout />,
-        children: [
-            // 根路径下的默认页面：内容渲染到Outlet里
-            { index: true, element: <div>首页内容（渲染在右侧容器里）</div> },
-            // 其他页面：同样渲染到Outlet里
-            { path: 'icon-manage/list', element: <div>雪碧图列表</div> },
-            { path: 'icon-manage/upload', element: <div>图标上传</div> },
-            { path: 'setting', element: <div>系统设置</div> },
-            // 404：找不到路径时显示
-            { path: '*', element: <div>404 → 跳首页</div> },
-        ],
+        children: routes,
     },
 ])
 
