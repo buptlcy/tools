@@ -8,7 +8,6 @@ import fs from 'fs-extra'
 import sharp from 'sharp' // 图片压缩（需额外装：pnpm add sharp）
 import spritesmith from 'spritesmith'
 
-import { __dirname } from '../utils'
 import { BUILDING_CONFIG } from './building'
 import { ITEM_CONFIG } from './item'
 

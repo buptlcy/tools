@@ -1,0 +1,306 @@
+/* 自动生成的雪碧图CSS */
+.iconbuilding- {
+  background-image: url('./sprite-building.png');
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+.icon-building-1级蓝图设计器 {
+  width: 64px;
+  height: 64px;
+  background-position: 0px 0px;
+}
+
+.icon-building-1级采矿机 {
+  width: 64px;
+  height: 64px;
+  background-position: -66px 0px;
+}
+
+.icon-building-2级蓝图设计器 {
+  width: 64px;
+  height: 64px;
+  background-position: 0px -66px;
+}
+
+.icon-building-2级采矿机 {
+  width: 64px;
+  height: 64px;
+  background-position: -66px -66px;
+}
+
+.icon-building-3级蓝图设计器 {
+  width: 64px;
+  height: 64px;
+  background-position: -132px 0px;
+}
+
+.icon-building-3级采矿机 {
+  width: 64px;
+  height: 64px;
+  background-position: -132px -66px;
+}
+
+.icon-building-AWESOME商店 {
+  width: 64px;
+  height: 64px;
+  background-position: 0px -132px;
+}
+
+.icon-building-AWESOME回收器 {
+  width: 64px;
+  height: 64px;
+  background-position: -66px -132px;
+}
+
+.icon-building-个人储物盒 {
+  width: 64px;
+  height: 64px;
+  background-position: -132px -132px;
+}
+
+.icon-building-位面存储站上传器 {
+  width: 64px;
+  height: 64px;
+  background-position: -198px 0px;
+}
+
+.icon-building-冶炼站 {
+  width: 64px;
+  height: 64px;
+  background-position: -198px -66px;
+}
+
+.icon-building-分子分析机 {
+  width: 64px;
+  height: 64px;
+  background-position: -198px -132px;
+}
+
+.icon-building-制作台 {
+  width: 64px;
+  height: 64px;
+  background-position: 0px -198px;
+}
+
+.icon-building-制造站 {
+  width: 64px;
+  height: 64px;
+  background-position: -66px -198px;
+}
+
+.icon-building-医疗储物盒 {
+  width: 64px;
+  height: 64px;
+  background-position: -132px -198px;
+}
+
+.icon-building-卡车站 {
+  width: 64px;
+  height: 64px;
+  background-position: -198px -198px;
+}
+
+.icon-building-地热发电机 {
+  width: 64px;
+  height: 64px;
+  background-position: -264px 0px;
+}
+
+.icon-building-基础货架装置 {
+  width: 64px;
+  height: 64px;
+  background-position: -264px -66px;
+}
+
+.icon-building-外星能源强化装置 {
+  width: 64px;
+  height: 64px;
+  background-position: -264px -132px;
+}
+
+.icon-building-太空电梯 {
+  width: 64px;
+  height: 64px;
+  background-position: -264px -198px;
+}
+
+.icon-building-存储集装箱 {
+  width: 64px;
+  height: 64px;
+  background-position: 0px -264px;
+}
+
+.icon-building-工业级液体缓冲罐 {
+  width: 64px;
+  height: 64px;
+  background-position: -66px -264px;
+}
+
+.icon-building-工业级集装箱 {
+  width: 64px;
+  height: 64px;
+  background-position: -132px -264px;
+}
+
+.icon-building-抽水站 {
+  width: 64px;
+  height: 64px;
+  background-position: -198px -264px;
+}
+
+.icon-building-无人机平台 {
+  width: 64px;
+  height: 64px;
+  background-position: -264px -264px;
+}
+
+.icon-building-有害物质储物盒 {
+  width: 64px;
+  height: 64px;
+  background-position: -330px 0px;
+}
+
+.icon-building-构筑站 {
+  width: 64px;
+  height: 64px;
+  background-position: -330px -66px;
+}
+
+.icon-building-枢纽 {
+  width: 64px;
+  height: 64px;
+  background-position: -330px -132px;
+}
+
+.icon-building-核电站 {
+  width: 64px;
+  height: 64px;
+  background-position: -330px -198px;
+}
+
+.icon-building-油井 {
+  width: 64px;
+  height: 64px;
+  background-position: -330px -264px;
+}
+
+.icon-building-液体缓冲罐 {
+  width: 64px;
+  height: 64px;
+  background-position: 0px -330px;
+}
+
+.icon-building-液体货运站台 {
+  width: 64px;
+  height: 64px;
+  background-position: -66px -330px;
+}
+
+.icon-building-混料站 {
+  width: 64px;
+  height: 64px;
+  background-position: -132px -330px;
+}
+
+.icon-building-灌装站 {
+  width: 64px;
+  height: 64px;
+  background-position: -198px -330px;
+}
+
+.icon-building-煤炭发电机 {
+  width: 64px;
+  height: 64px;
+  background-position: -264px -330px;
+}
+
+.icon-building-燃油发电机 {
+  width: 64px;
+  height: 64px;
+  background-position: -330px -330px;
+}
+
+.icon-building-生物质燃烧器 {
+  width: 64px;
+  height: 64px;
+  background-position: -396px 0px;
+}
+
+.icon-building-瞭望塔 {
+  width: 64px;
+  height: 64px;
+  background-position: -396px -66px;
+}
+
+.icon-building-粒子加速站 {
+  width: 64px;
+  height: 64px;
+  background-position: -396px -132px;
+}
+
+.icon-building-精炼站 {
+  width: 64px;
+  height: 64px;
+  background-position: -396px -198px;
+}
+
+.icon-building-蓄电池 {
+  width: 64px;
+  height: 64px;
+  background-position: -396px -264px;
+}
+
+.icon-building-装备工坊 {
+  width: 64px;
+  height: 64px;
+  background-position: -396px -330px;
+}
+
+.icon-building-装配站 {
+  width: 64px;
+  height: 64px;
+  background-position: 0px -396px;
+}
+
+.icon-building-货运站台 {
+  width: 64px;
+  height: 64px;
+  background-position: -66px -396px;
+}
+
+.icon-building-资源井增压站 {
+  width: 64px;
+  height: 64px;
+  background-position: -132px -396px;
+}
+
+.icon-building-资源抽取器 {
+  width: 64px;
+  height: 64px;
+  background-position: -198px -396px;
+}
+
+.icon-building-转化站 {
+  width: 64px;
+  height: 64px;
+  background-position: -264px -396px;
+}
+
+.icon-building-量子编码站 {
+  width: 64px;
+  height: 64px;
+  background-position: -330px -396px;
+}
+
+.icon-building-铸造站 {
+  width: 64px;
+  height: 64px;
+  background-position: -396px -396px;
+}
+
+.icon-building-雷达塔 {
+  width: 64px;
+  height: 64px;
+  background-position: -462px 0px;
+}
