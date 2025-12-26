@@ -1,0 +1,7460 @@
+{
+    "1级采矿机": [
+        {
+            "input": [],
+            "output": [
+                {
+                    "name": "煤",
+                    "count": 0,
+                    "rapid": 30
+                },
+                {
+                    "name": "",
+                    "count": 0,
+                    "rapid": 60
+                },
+                {
+                    "name": "",
+                    "count": 0,
+                    "rapid": 120
+                }
+            ],
+            "name": "煤"
+        },
+        {
+            "input": [],
+            "output": [
+                {
+                    "name": "石灰石",
+                    "count": 0,
+                    "rapid": 30
+                },
+                {
+                    "name": "",
+                    "count": 0,
+                    "rapid": 60
+                },
+                {
+                    "name": "",
+                    "count": 0,
+                    "rapid": 120
+                }
+            ],
+            "name": "石灰石"
+        },
+        {
+            "input": [],
+            "output": [
+                {
+                    "name": "铝土矿",
+                    "count": 0,
+                    "rapid": 30
+                },
+                {
+                    "name": "",
+                    "count": 0,
+                    "rapid": 60
+                },
+                {
+                    "name": "",
+                    "count": 0,
+                    "rapid": 120
+                }
+            ],
+            "name": "铝土矿"
+        },
+        {
+            "input": [],
+            "output": [
+                {
+                    "name": "钦金矿石",
+                    "count": 0,
+                    "rapid": 30
+                },
+                {
+                    "name": "",
+                    "count": 0,
+                    "rapid": 60
+                },
+                {
+                    "name": "",
+                    "count": 0,
+                    "rapid": 120
+                }
+            ],
+            "name": "钦金矿石"
+        },
+        {
+            "input": [],
+            "output": [
+                {
+                    "name": "铜矿石",
+                    "count": 0,
+                    "rapid": 30
+                },
+                {
+                    "name": "",
+                    "count": 0,
+                    "rapid": 60
+                },
+                {
+                    "name": "",
+                    "count": 0,
+                    "rapid": 120
+                }
+            ],
+            "name": "铜矿石"
+        },
+        {
+            "input": [],
+            "output": [
+                {
+                    "name": "铁矿石",
+                    "count": 0,
+                    "rapid": 30
+                },
+                {
+                    "name": "",
+                    "count": 0,
+                    "rapid": 60
+                },
+                {
+                    "name": "",
+                    "count": 0,
+                    "rapid": 120
+                }
+            ],
+            "name": "铁矿石"
+        },
+        {
+            "input": [],
+            "output": [
+                {
+                    "name": "铀",
+                    "count": 0,
+                    "rapid": 30
+                },
+                {
+                    "name": "",
+                    "count": 0,
+                    "rapid": 60
+                },
+                {
+                    "name": "",
+                    "count": 0,
+                    "rapid": 120
+                }
+            ],
+            "name": "铀"
+        },
+        {
+            "input": [],
+            "output": [
+                {
+                    "name": "粗石英",
+                    "count": 0,
+                    "rapid": 30
+                },
+                {
+                    "name": "",
+                    "count": 0,
+                    "rapid": 60
+                },
+                {
+                    "name": "",
+                    "count": 0,
+                    "rapid": 120
+                }
+            ],
+            "name": "粗石英"
+        },
+        {
+            "input": [],
+            "output": [
+                {
+                    "name": "硫磺",
+                    "count": 0,
+                    "rapid": 30
+                },
+                {
+                    "name": "",
+                    "count": 0,
+                    "rapid": 60
+                },
+                {
+                    "name": "",
+                    "count": 0,
+                    "rapid": 120
+                }
+            ],
+            "name": "硫磺"
+        },
+        {
+            "input": [],
+            "output": [
+                {
+                    "name": "SAM物质",
+                    "count": 0,
+                    "rapid": 30
+                },
+                {
+                    "name": "",
+                    "count": 0,
+                    "rapid": 60
+                },
+                {
+                    "name": "",
+                    "count": 0,
+                    "rapid": 120
+                }
+            ],
+            "name": "SAM物质"
+        }
+    ],
+    "2级采矿机": [
+        {
+            "input": [],
+            "output": [
+                {
+                    "name": "煤",
+                    "count": 0,
+                    "rapid": 60
+                },
+                {
+                    "name": "",
+                    "count": 0,
+                    "rapid": 120
+                },
+                {
+                    "name": "",
+                    "count": 0,
+                    "rapid": 240
+                }
+            ],
+            "name": "煤"
+        },
+        {
+            "input": [],
+            "output": [
+                {
+                    "name": "石灰石",
+                    "count": 0,
+                    "rapid": 60
+                },
+                {
+                    "name": "",
+                    "count": 0,
+                    "rapid": 120
+                },
+                {
+                    "name": "",
+                    "count": 0,
+                    "rapid": 240
+                }
+            ],
+            "name": "石灰石"
+        },
+        {
+            "input": [],
+            "output": [
+                {
+                    "name": "铝土矿",
+                    "count": 0,
+                    "rapid": 60
+                },
+                {
+                    "name": "",
+                    "count": 0,
+                    "rapid": 120
+                },
+                {
+                    "name": "",
+                    "count": 0,
+                    "rapid": 240
+                }
+            ],
+            "name": "铝土矿"
+        },
+        {
+            "input": [],
+            "output": [
+                {
+                    "name": "钦金矿石",
+                    "count": 0,
+                    "rapid": 60
+                },
+                {
+                    "name": "",
+                    "count": 0,
+                    "rapid": 120
+                },
+                {
+                    "name": "",
+                    "count": 0,
+                    "rapid": 240
+                }
+            ],
+            "name": "钦金矿石"
+        },
+        {
+            "input": [],
+            "output": [
+                {
+                    "name": "铜矿石",
+                    "count": 0,
+                    "rapid": 60
+                },
+                {
+                    "name": "",
+                    "count": 0,
+                    "rapid": 120
+                },
+                {
+                    "name": "",
+                    "count": 0,
+                    "rapid": 240
+                }
+            ],
+            "name": "铜矿石"
+        },
+        {
+            "input": [],
+            "output": [
+                {
+                    "name": "铁矿石",
+                    "count": 0,
+                    "rapid": 60
+                },
+                {
+                    "name": "",
+                    "count": 0,
+                    "rapid": 120
+                },
+                {
+                    "name": "",
+                    "count": 0,
+                    "rapid": 240
+                }
+            ],
+            "name": "铁矿石"
+        },
+        {
+            "input": [],
+            "output": [
+                {
+                    "name": "铀",
+                    "count": 0,
+                    "rapid": 60
+                },
+                {
+                    "name": "",
+                    "count": 0,
+                    "rapid": 120
+                },
+                {
+                    "name": "",
+                    "count": 0,
+                    "rapid": 240
+                }
+            ],
+            "name": "铀"
+        },
+        {
+            "input": [],
+            "output": [
+                {
+                    "name": "粗石英",
+                    "count": 0,
+                    "rapid": 60
+                },
+                {
+                    "name": "",
+                    "count": 0,
+                    "rapid": 120
+                },
+                {
+                    "name": "",
+                    "count": 0,
+                    "rapid": 240
+                }
+            ],
+            "name": "粗石英"
+        },
+        {
+            "input": [],
+            "output": [
+                {
+                    "name": "硫磺",
+                    "count": 0,
+                    "rapid": 60
+                },
+                {
+                    "name": "",
+                    "count": 0,
+                    "rapid": 120
+                },
+                {
+                    "name": "",
+                    "count": 0,
+                    "rapid": 240
+                }
+            ],
+            "name": "硫磺"
+        },
+        {
+            "input": [],
+            "output": [
+                {
+                    "name": "SAM物质",
+                    "count": 0,
+                    "rapid": 60
+                },
+                {
+                    "name": "",
+                    "count": 0,
+                    "rapid": 120
+                },
+                {
+                    "name": "",
+                    "count": 0,
+                    "rapid": 240
+                }
+            ],
+            "name": "SAM物质"
+        }
+    ],
+    "3级采矿机": [
+        {
+            "input": [],
+            "output": [
+                {
+                    "name": "煤",
+                    "count": 0,
+                    "rapid": 120
+                },
+                {
+                    "name": "",
+                    "count": 0,
+                    "rapid": 240
+                },
+                {
+                    "name": "",
+                    "count": 0,
+                    "rapid": 480
+                }
+            ],
+            "name": "煤"
+        },
+        {
+            "input": [],
+            "output": [
+                {
+                    "name": "石灰石",
+                    "count": 0,
+                    "rapid": 120
+                },
+                {
+                    "name": "",
+                    "count": 0,
+                    "rapid": 240
+                },
+                {
+                    "name": "",
+                    "count": 0,
+                    "rapid": 480
+                }
+            ],
+            "name": "石灰石"
+        },
+        {
+            "input": [],
+            "output": [
+                {
+                    "name": "铝土矿",
+                    "count": 0,
+                    "rapid": 120
+                },
+                {
+                    "name": "",
+                    "count": 0,
+                    "rapid": 240
+                },
+                {
+                    "name": "",
+                    "count": 0,
+                    "rapid": 480
+                }
+            ],
+            "name": "铝土矿"
+        },
+        {
+            "input": [],
+            "output": [
+                {
+                    "name": "钦金矿石",
+                    "count": 0,
+                    "rapid": 120
+                },
+                {
+                    "name": "",
+                    "count": 0,
+                    "rapid": 240
+                },
+                {
+                    "name": "",
+                    "count": 0,
+                    "rapid": 480
+                }
+            ],
+            "name": "钦金矿石"
+        },
+        {
+            "input": [],
+            "output": [
+                {
+                    "name": "铜矿石",
+                    "count": 0,
+                    "rapid": 120
+                },
+                {
+                    "name": "",
+                    "count": 0,
+                    "rapid": 240
+                },
+                {
+                    "name": "",
+                    "count": 0,
+                    "rapid": 480
+                }
+            ],
+            "name": "铜矿石"
+        },
+        {
+            "input": [],
+            "output": [
+                {
+                    "name": "铁矿石",
+                    "count": 0,
+                    "rapid": 120
+                },
+                {
+                    "name": "",
+                    "count": 0,
+                    "rapid": 240
+                },
+                {
+                    "name": "",
+                    "count": 0,
+                    "rapid": 480
+                }
+            ],
+            "name": "铁矿石"
+        },
+        {
+            "input": [],
+            "output": [
+                {
+                    "name": "铀",
+                    "count": 0,
+                    "rapid": 120
+                },
+                {
+                    "name": "",
+                    "count": 0,
+                    "rapid": 240
+                },
+                {
+                    "name": "",
+                    "count": 0,
+                    "rapid": 480
+                }
+            ],
+            "name": "铀"
+        },
+        {
+            "input": [],
+            "output": [
+                {
+                    "name": "粗石英",
+                    "count": 0,
+                    "rapid": 120
+                },
+                {
+                    "name": "",
+                    "count": 0,
+                    "rapid": 240
+                },
+                {
+                    "name": "",
+                    "count": 0,
+                    "rapid": 480
+                }
+            ],
+            "name": "粗石英"
+        },
+        {
+            "input": [],
+            "output": [
+                {
+                    "name": "硫磺",
+                    "count": 0,
+                    "rapid": 120
+                },
+                {
+                    "name": "",
+                    "count": 0,
+                    "rapid": 240
+                },
+                {
+                    "name": "",
+                    "count": 0,
+                    "rapid": 480
+                }
+            ],
+            "name": "硫磺"
+        },
+        {
+            "input": [],
+            "output": [
+                {
+                    "name": "SAM物质",
+                    "count": 0,
+                    "rapid": 120
+                },
+                {
+                    "name": "",
+                    "count": 0,
+                    "rapid": 240
+                },
+                {
+                    "name": "",
+                    "count": 0,
+                    "rapid": 480
+                }
+            ],
+            "name": "SAM物质"
+        }
+    ],
+    "油井": [
+        {
+            "input": [],
+            "output": [
+                {
+                    "name": "原油",
+                    "count": 0,
+                    "rapid": 60
+                },
+                {
+                    "name": "",
+                    "count": 0,
+                    "rapid": 120
+                },
+                {
+                    "name": "",
+                    "count": 0,
+                    "rapid": 240
+                }
+            ],
+            "name": "原油"
+        }
+    ],
+    "抽水站": [
+        {
+            "input": [],
+            "output": [
+                {
+                    "name": "水",
+                    "count": 0,
+                    "rapid": 120
+                }
+            ],
+            "name": "水"
+        }
+    ],
+    "资源井增压站": [],
+    "资源抽取器": [
+        {
+            "input": [],
+            "output": [
+                {
+                    "name": "氮气",
+                    "count": 0,
+                    "rapid": 30
+                },
+                {
+                    "name": "",
+                    "count": 0,
+                    "rapid": 60
+                },
+                {
+                    "name": "",
+                    "count": 0,
+                    "rapid": 120
+                }
+            ],
+            "name": "氮气"
+        },
+        {
+            "input": [],
+            "output": [
+                {
+                    "name": "水",
+                    "count": 0,
+                    "rapid": 30
+                },
+                {
+                    "name": "",
+                    "count": 0,
+                    "rapid": 60
+                },
+                {
+                    "name": "",
+                    "count": 0,
+                    "rapid": 120
+                }
+            ],
+            "name": "水"
+        },
+        {
+            "input": [],
+            "output": [
+                {
+                    "name": "原油",
+                    "count": 0,
+                    "rapid": 30
+                },
+                {
+                    "name": "",
+                    "count": 0,
+                    "rapid": 60
+                },
+                {
+                    "name": "",
+                    "count": 0,
+                    "rapid": 120
+                }
+            ],
+            "name": "原油"
+        }
+    ],
+    "冶炼站": [
+        {
+            "input": [
+                {
+                    "name": "FICSMAS",
+                    "count": 1,
+                    "rapid": 5
+                }
+            ],
+            "output": [
+                {
+                    "name": "红色FICSMAS挂饰",
+                    "count": 1,
+                    "rapid": 5
+                }
+            ],
+            "name": "红色FICSMAS挂饰"
+        },
+        {
+            "input": [
+                {
+                    "name": "FICSMAS",
+                    "count": 1,
+                    "rapid": 5
+                }
+            ],
+            "output": [
+                {
+                    "name": "蓝色FICSMAS挂饰",
+                    "count": 2,
+                    "rapid": 10
+                }
+            ],
+            "name": "蓝色FICSMAS挂饰"
+        },
+        {
+            "input": [
+                {
+                    "name": "铁矿石",
+                    "count": 1,
+                    "rapid": 30
+                }
+            ],
+            "output": [
+                {
+                    "name": "铁锭",
+                    "count": 1,
+                    "rapid": 30
+                }
+            ],
+            "name": "铁锭"
+        },
+        {
+            "input": [
+                {
+                    "name": "钦金矿石",
+                    "count": 3,
+                    "rapid": 45
+                }
+            ],
+            "output": [
+                {
+                    "name": "钦金锭",
+                    "count": 1,
+                    "rapid": 15
+                }
+            ],
+            "name": "钦金锭"
+        },
+        {
+            "input": [
+                {
+                    "name": "铜矿石",
+                    "count": 1,
+                    "rapid": 30
+                }
+            ],
+            "output": [
+                {
+                    "name": "铜锭",
+                    "count": 1,
+                    "rapid": 30
+                }
+            ],
+            "name": "铜锭"
+        },
+        {
+            "input": [
+                {
+                    "name": "碎铝渣",
+                    "count": 2,
+                    "rapid": 60
+                }
+            ],
+            "output": [
+                {
+                    "name": "铝锭",
+                    "count": 1,
+                    "rapid": 30
+                }
+            ],
+            "name": "替代：高纯度铝锭"
+        }
+    ],
+    "铸造站": [
+        {
+            "input": [
+                {
+                    "name": "红色FICSMAS挂饰",
+                    "count": 2,
+                    "rapid": 10
+                },
+                {
+                    "name": "铜锭",
+                    "count": 2,
+                    "rapid": 10
+                }
+            ],
+            "output": [
+                {
+                    "name": "铜制FICSMAS挂饰",
+                    "count": 1,
+                    "rapid": 5
+                }
+            ],
+            "name": "铜制FICSMAS挂饰"
+        },
+        {
+            "input": [
+                {
+                    "name": "蓝色FICSMAS挂饰",
+                    "count": 3,
+                    "rapid": 15
+                },
+                {
+                    "name": "铁锭",
+                    "count": 3,
+                    "rapid": 15
+                }
+            ],
+            "output": [
+                {
+                    "name": "铁制FICSMAS挂饰",
+                    "count": 1,
+                    "rapid": 5
+                }
+            ],
+            "name": "铁制FICSMAS挂饰"
+        },
+        {
+            "input": [
+                {
+                    "name": "铁矿石",
+                    "count": 3,
+                    "rapid": 45
+                },
+                {
+                    "name": "煤",
+                    "count": 3,
+                    "rapid": 45
+                }
+            ],
+            "output": [
+                {
+                    "name": "钢锭",
+                    "count": 3,
+                    "rapid": 45
+                }
+            ],
+            "name": "钢锭"
+        },
+        {
+            "input": [
+                {
+                    "name": "碎铝渣",
+                    "count": 6,
+                    "rapid": 90
+                },
+                {
+                    "name": "二氧化硅",
+                    "count": 5,
+                    "rapid": 75
+                }
+            ],
+            "output": [
+                {
+                    "name": "铝锭",
+                    "count": 4,
+                    "rapid": 60
+                }
+            ],
+            "name": "铝锭"
+        },
+        {
+            "input": [
+                {
+                    "name": "铜矿石",
+                    "count": 5,
+                    "rapid": 50
+                },
+                {
+                    "name": "铁矿石",
+                    "count": 5,
+                    "rapid": 50
+                }
+            ],
+            "output": [
+                {
+                    "name": "铜锭",
+                    "count": 10,
+                    "rapid": 100
+                }
+            ],
+            "name": "替代：铜合金锭"
+        },
+        {
+            "input": [
+                {
+                    "name": "铁矿石",
+                    "count": 15,
+                    "rapid": 75
+                },
+                {
+                    "name": "油焦",
+                    "count": 15,
+                    "rapid": 75
+                }
+            ],
+            "output": [
+                {
+                    "name": "钢锭",
+                    "count": 20,
+                    "rapid": 100
+                }
+            ],
+            "name": "替代：高碳钢锭"
+        },
+        {
+            "input": [
+                {
+                    "name": "钢锭",
+                    "count": 5,
+                    "rapid": 50
+                },
+                {
+                    "name": "混凝土",
+                    "count": 3,
+                    "rapid": 30
+                }
+            ],
+            "output": [
+                {
+                    "name": "钢管",
+                    "count": 5,
+                    "rapid": 50
+                }
+            ],
+            "name": "替代：浇铸钢管"
+        },
+        {
+            "input": [
+                {
+                    "name": "铁锭",
+                    "count": 1,
+                    "rapid": 15
+                },
+                {
+                    "name": "钢锭",
+                    "count": 1,
+                    "rapid": 15
+                }
+            ],
+            "output": [
+                {
+                    "name": "铁板",
+                    "count": 3,
+                    "rapid": 45
+                }
+            ],
+            "name": "替代：铸钢板"
+        },
+        {
+            "input": [
+                {
+                    "name": "钢锭",
+                    "count": 24,
+                    "rapid": 120
+                },
+                {
+                    "name": "混凝土",
+                    "count": 16,
+                    "rapid": 80
+                }
+            ],
+            "output": [
+                {
+                    "name": "钢梁",
+                    "count": 9,
+                    "rapid": 45
+                }
+            ],
+            "name": "替代：浇铸梁"
+        },
+        {
+            "input": [
+                {
+                    "name": "粗石英",
+                    "count": 25,
+                    "rapid": 75
+                },
+                {
+                    "name": "煤",
+                    "count": 12,
+                    "rapid": 36
+                }
+            ],
+            "output": [
+                {
+                    "name": "石英晶体",
+                    "count": 18,
+                    "rapid": 54
+                }
+            ],
+            "name": "替代：熔合石英晶体"
+        },
+        {
+            "input": [
+                {
+                    "name": "铁矿石",
+                    "count": 5,
+                    "rapid": 25
+                },
+                {
+                    "name": "石灰石",
+                    "count": 8,
+                    "rapid": 40
+                }
+            ],
+            "output": [
+                {
+                    "name": "铁锭",
+                    "count": 10,
+                    "rapid": 50
+                }
+            ],
+            "name": "替代：基础铁锭"
+        },
+        {
+            "input": [
+                {
+                    "name": "铜矿石",
+                    "count": 5,
+                    "rapid": 25
+                },
+                {
+                    "name": "油焦",
+                    "count": 8,
+                    "rapid": 40
+                }
+            ],
+            "output": [
+                {
+                    "name": "铜锭",
+                    "count": 12,
+                    "rapid": 60
+                }
+            ],
+            "name": "替代：回火铜锭"
+        },
+        {
+            "input": [
+                {
+                    "name": "钦金矿石",
+                    "count": 6,
+                    "rapid": 45
+                },
+                {
+                    "name": "油焦",
+                    "count": 2,
+                    "rapid": 15
+                }
+            ],
+            "output": [
+                {
+                    "name": "钦金锭",
+                    "count": 3,
+                    "rapid": 225
+                }
+            ],
+            "name": "替代：回火钦金锭"
+        },
+        {
+            "input": [
+                {
+                    "name": "铁矿石",
+                    "count": 2,
+                    "rapid": 5
+                },
+                {
+                    "name": "压缩煤",
+                    "count": 1,
+                    "rapid": 25
+                }
+            ],
+            "output": [
+                {
+                    "name": "钢锭",
+                    "count": 4,
+                    "rapid": 10
+                }
+            ],
+            "name": "替代：致密钢锭"
+        },
+        {
+            "input": [
+                {
+                    "name": "铁锭",
+                    "count": 2,
+                    "rapid": 40
+                },
+                {
+                    "name": "煤",
+                    "count": 2,
+                    "rapid": 40
+                }
+            ],
+            "output": [
+                {
+                    "name": "钢锭",
+                    "count": 3,
+                    "rapid": 60
+                }
+            ],
+            "name": "替代：坚固钢锭"
+        },
+        {
+            "input": [
+                {
+                    "name": "铁矿石",
+                    "count": 8,
+                    "rapid": 40
+                },
+                {
+                    "name": "铜矿石",
+                    "count": 2,
+                    "rapid": 10
+                }
+            ],
+            "output": [
+                {
+                    "name": "铁锭",
+                    "count": 15,
+                    "rapid": 75
+                }
+            ],
+            "name": "替代：铁合金锭"
+        }
+    ],
+    "构筑站": [
+        {
+            "input": [
+                {
+                    "name": "FICSMAS",
+                    "count": 5,
+                    "rapid": 25
+                }
+            ],
+            "output": [
+                {
+                    "name": "FICSMAS“真雪”",
+                    "count": 2,
+                    "rapid": 10
+                }
+            ],
+            "name": "FICSMAS“真雪”"
+        },
+        {
+            "input": [
+                {
+                    "name": "FICSMAS",
+                    "count": 1,
+                    "rapid": 10
+                }
+            ],
+            "output": [
+                {
+                    "name": "FICSMAS圣诞树枝",
+                    "count": 1,
+                    "rapid": 10
+                }
+            ],
+            "name": "FICSMAS圣诞树枝"
+        },
+        {
+            "input": [
+                {
+                    "name": "FICSMAS",
+                    "count": 2,
+                    "rapid": 10
+                }
+            ],
+            "output": [
+                {
+                    "name": "FICSMAS蝴蝶结",
+                    "count": 1,
+                    "rapid": 5
+                }
+            ],
+            "name": "FICSMAS蝴蝶结"
+        },
+        {
+            "input": [
+                {
+                    "name": "FICSMAS",
+                    "count": 3,
+                    "rapid": 15
+                }
+            ],
+            "output": [
+                {
+                    "name": "拐杖糖",
+                    "count": 1,
+                    "rapid": 5
+                }
+            ],
+            "name": "拐杖糖"
+        },
+        {
+            "input": [
+                {
+                    "name": "铁锭",
+                    "count": 3,
+                    "rapid": 30
+                }
+            ],
+            "output": [
+                {
+                    "name": "铁板",
+                    "count": 2,
+                    "rapid": 20
+                }
+            ],
+            "name": "铁板"
+        },
+        {
+            "input": [
+                {
+                    "name": "铁锭",
+                    "count": 1,
+                    "rapid": 15
+                }
+            ],
+            "output": [
+                {
+                    "name": "铁棒",
+                    "count": 1,
+                    "rapid": 15
+                }
+            ],
+            "name": "铁棒"
+        },
+        {
+            "input": [
+                {
+                    "name": "F金锭",
+                    "count": 1,
+                    "rapid": 10
+                }
+            ],
+            "output": [
+                {
+                    "name": "F金三角",
+                    "count": 3,
+                    "rapid": 30
+                }
+            ],
+            "name": "F金三角"
+        },
+        {
+            "input": [
+                {
+                    "name": "SAM物质",
+                    "count": 4,
+                    "rapid": 120
+                }
+            ],
+            "output": [
+                {
+                    "name": "活性SAM物质",
+                    "count": 1,
+                    "rapid": 30
+                }
+            ],
+            "name": "活性SAM物质"
+        },
+        {
+            "input": [
+                {
+                    "name": "钢锭",
+                    "count": 4,
+                    "rapid": 60
+                }
+            ],
+            "output": [
+                {
+                    "name": "钢梁",
+                    "count": 1,
+                    "rapid": 15
+                }
+            ],
+            "name": "钢梁"
+        },
+        {
+            "input": [
+                {
+                    "name": "钢锭",
+                    "count": 3,
+                    "rapid": 30
+                }
+            ],
+            "output": [
+                {
+                    "name": "钢管",
+                    "count": 2,
+                    "rapid": 20
+                }
+            ],
+            "name": "钢管"
+        },
+        {
+            "input": [
+                {
+                    "name": "塑料",
+                    "count": 2,
+                    "rapid": 30
+                }
+            ],
+            "output": [
+                {
+                    "name": "空桶",
+                    "count": 4,
+                    "rapid": 60
+                }
+            ],
+            "name": "空桶"
+        },
+        {
+            "input": [
+                {
+                    "name": "粗石英",
+                    "count": 5,
+                    "rapid": 375
+                }
+            ],
+            "output": [
+                {
+                    "name": "石英晶体",
+                    "count": 3,
+                    "rapid": 225
+                }
+            ],
+            "name": "石英晶体"
+        },
+        {
+            "input": [
+                {
+                    "name": "铝锭",
+                    "count": 3,
+                    "rapid": 90
+                }
+            ],
+            "output": [
+                {
+                    "name": "铝制外壳",
+                    "count": 2,
+                    "rapid": 60
+                }
+            ],
+            "name": "铝制外壳"
+        },
+        {
+            "input": [
+                {
+                    "name": "粗石英",
+                    "count": 3,
+                    "rapid": 225
+                }
+            ],
+            "output": [
+                {
+                    "name": "二氧化硅",
+                    "count": 5,
+                    "rapid": 375
+                }
+            ],
+            "name": "二氧化硅"
+        },
+        {
+            "input": [
+                {
+                    "name": "铜锭",
+                    "count": 2,
+                    "rapid": 20
+                }
+            ],
+            "output": [
+                {
+                    "name": "铜板",
+                    "count": 1,
+                    "rapid": 10
+                }
+            ],
+            "name": "铜板"
+        },
+        {
+            "input": [
+                {
+                    "name": "铜锭",
+                    "count": 30,
+                    "rapid": 300
+                }
+            ],
+            "output": [
+                {
+                    "name": "铜粉",
+                    "count": 5,
+                    "rapid": 50
+                }
+            ],
+            "name": "铜粉"
+        },
+        {
+            "input": [
+                {
+                    "name": "铝锭",
+                    "count": 1,
+                    "rapid": 60
+                }
+            ],
+            "output": [
+                {
+                    "name": "空瓶",
+                    "count": 1,
+                    "rapid": 60
+                }
+            ],
+            "name": "空瓶"
+        },
+        {
+            "input": [
+                {
+                    "name": "钦金锭",
+                    "count": 1,
+                    "rapid": 12
+                }
+            ],
+            "output": [
+                {
+                    "name": "急速电线",
+                    "count": 5,
+                    "rapid": 60
+                }
+            ],
+            "name": "急速电线"
+        },
+        {
+            "input": [
+                {
+                    "name": "生物质",
+                    "count": 8,
+                    "rapid": 120
+                }
+            ],
+            "output": [
+                {
+                    "name": "固态生物燃料",
+                    "count": 4,
+                    "rapid": 60
+                }
+            ],
+            "name": "固态生物燃料"
+        },
+        {
+            "input": [
+                {
+                    "name": "野猪残骸",
+                    "count": 1,
+                    "rapid": 20
+                }
+            ],
+            "output": [
+                {
+                    "name": "外星生物蛋白质",
+                    "count": 1,
+                    "rapid": 20
+                }
+            ],
+            "name": "野猪蛋白质"
+        },
+        {
+            "input": [
+                {
+                    "name": "吐射兽残骸",
+                    "count": 1,
+                    "rapid": 20
+                }
+            ],
+            "output": [
+                {
+                    "name": "外星生物蛋白质",
+                    "count": 1,
+                    "rapid": 20
+                }
+            ],
+            "name": "吐射兽蛋白质"
+        },
+        {
+            "input": [
+                {
+                    "name": "菌丝体",
+                    "count": 1,
+                    "rapid": 15
+                }
+            ],
+            "output": [
+                {
+                    "name": "生物质",
+                    "count": 10,
+                    "rapid": 150
+                }
+            ],
+            "name": "生物质（菌丝体）"
+        },
+        {
+            "input": [
+                {
+                    "name": "蓝色能量蛞蝓",
+                    "count": 1,
+                    "rapid": 75
+                }
+            ],
+            "output": [
+                {
+                    "name": "能量碎片",
+                    "count": 1,
+                    "rapid": 75
+                }
+            ],
+            "name": "能量碎片（1）"
+        },
+        {
+            "input": [
+                {
+                    "name": "刺蛛残骸",
+                    "count": 1,
+                    "rapid": 20
+                }
+            ],
+            "output": [
+                {
+                    "name": "外星生物蛋白质",
+                    "count": 1,
+                    "rapid": 20
+                }
+            ],
+            "name": "刺蛛蛋白质"
+        },
+        {
+            "input": [
+                {
+                    "name": "孵化巢残骸",
+                    "count": 1,
+                    "rapid": 20
+                }
+            ],
+            "output": [
+                {
+                    "name": "外星生物蛋白质",
+                    "count": 1,
+                    "rapid": 20
+                }
+            ],
+            "name": "孵化巢蛋白质"
+        },
+        {
+            "input": [
+                {
+                    "name": "外星生物蛋白质",
+                    "count": 1,
+                    "rapid": 10
+                }
+            ],
+            "output": [
+                {
+                    "name": "外星DNA胶囊",
+                    "count": 1,
+                    "rapid": 10
+                }
+            ],
+            "name": "外星DNA胶囊"
+        },
+        {
+            "input": [
+                {
+                    "name": "外星生物蛋白质",
+                    "count": 1,
+                    "rapid": 15
+                }
+            ],
+            "output": [
+                {
+                    "name": "生物质",
+                    "count": 100,
+                    "rapid": 1500
+                }
+            ],
+            "name": "生物质（外星生物蛋白质）"
+        },
+        {
+            "input": [
+                {
+                    "name": "紫色能量蛞蝓",
+                    "count": 1,
+                    "rapid": 25
+                }
+            ],
+            "output": [
+                {
+                    "name": "能量碎片",
+                    "count": 5,
+                    "rapid": 125
+                }
+            ],
+            "name": "能量碎片 (5)"
+        },
+        {
+            "input": [
+                {
+                    "name": "黄色能量蛞蝓",
+                    "count": 1,
+                    "rapid": 5
+                }
+            ],
+            "output": [
+                {
+                    "name": "能量碎片",
+                    "count": 2,
+                    "rapid": 10
+                }
+            ],
+            "name": "能量碎片 (2)"
+        },
+        {
+            "input": [
+                {
+                    "name": "FICSMAS“真雪”",
+                    "count": 3,
+                    "rapid": 15
+                }
+            ],
+            "output": [
+                {
+                    "name": "雪球",
+                    "count": 1,
+                    "rapid": 5
+                }
+            ],
+            "name": "雪球"
+        },
+        {
+            "input": [
+                {
+                    "name": "树叶",
+                    "count": 10,
+                    "rapid": 120
+                }
+            ],
+            "output": [
+                {
+                    "name": "生物质",
+                    "count": 5,
+                    "rapid": 60
+                }
+            ],
+            "name": "生物质（树叶）"
+        },
+        {
+            "input": [
+                {
+                    "name": "木材",
+                    "count": 4,
+                    "rapid": 60
+                }
+            ],
+            "output": [
+                {
+                    "name": "生物质",
+                    "count": 20,
+                    "rapid": 300
+                }
+            ],
+            "name": "生物质（木材）"
+        },
+        {
+            "input": [
+                {
+                    "name": "石灰石",
+                    "count": 3,
+                    "rapid": 45
+                }
+            ],
+            "output": [
+                {
+                    "name": "混凝土",
+                    "count": 1,
+                    "rapid": 15
+                }
+            ],
+            "name": "混凝土"
+        },
+        {
+            "input": [
+                {
+                    "name": "铁棒",
+                    "count": 1,
+                    "rapid": 10
+                }
+            ],
+            "output": [
+                {
+                    "name": "螺丝",
+                    "count": 4,
+                    "rapid": 40
+                }
+            ],
+            "name": "螺丝"
+        },
+        {
+            "input": [
+                {
+                    "name": "电线",
+                    "count": 2,
+                    "rapid": 60
+                }
+            ],
+            "output": [
+                {
+                    "name": "电缆",
+                    "count": 1,
+                    "rapid": 30
+                }
+            ],
+            "name": "电缆"
+        },
+        {
+            "input": [
+                {
+                    "name": "铜锭",
+                    "count": 1,
+                    "rapid": 15
+                }
+            ],
+            "output": [
+                {
+                    "name": "电线",
+                    "count": 2,
+                    "rapid": 30
+                }
+            ],
+            "name": "电线"
+        },
+        {
+            "input": [
+                {
+                    "name": "铁棒",
+                    "count": 1,
+                    "rapid": 15
+                }
+            ],
+            "output": [
+                {
+                    "name": "铁棒弹",
+                    "count": 1,
+                    "rapid": 15
+                }
+            ],
+            "name": "铁棒弹"
+        },
+        {
+            "input": [
+                {
+                    "name": "木材",
+                    "count": 1,
+                    "rapid": 15
+                }
+            ],
+            "output": [
+                {
+                    "name": "煤",
+                    "count": 10,
+                    "rapid": 150
+                }
+            ],
+            "name": "替代: 木炭"
+        },
+        {
+            "input": [
+                {
+                    "name": "生物质",
+                    "count": 5,
+                    "rapid": 375
+                }
+            ],
+            "output": [
+                {
+                    "name": "煤",
+                    "count": 6,
+                    "rapid": 45
+                }
+            ],
+            "name": "替代: 生物煤"
+        },
+        {
+            "input": [
+                {
+                    "name": "钢锭",
+                    "count": 1,
+                    "rapid": 12
+                }
+            ],
+            "output": [
+                {
+                    "name": "铁棒",
+                    "count": 4,
+                    "rapid": 48
+                }
+            ],
+            "name": "替代：钢棒"
+        },
+        {
+            "input": [
+                {
+                    "name": "钢锭",
+                    "count": 4,
+                    "rapid": 40
+                }
+            ],
+            "output": [
+                {
+                    "name": "空桶",
+                    "count": 4,
+                    "rapid": 40
+                }
+            ],
+            "name": "替代: 钢罐"
+        },
+        {
+            "input": [
+                {
+                    "name": "铁锭",
+                    "count": 20,
+                    "rapid": 100
+                }
+            ],
+            "output": [
+                {
+                    "name": "钢管",
+                    "count": 5,
+                    "rapid": 25
+                }
+            ],
+            "name": "替代：铁制管道"
+        },
+        {
+            "input": [
+                {
+                    "name": "铝锭",
+                    "count": 3,
+                    "rapid": 225
+                }
+            ],
+            "output": [
+                {
+                    "name": "钢梁",
+                    "count": 3,
+                    "rapid": 225
+                }
+            ],
+            "name": "替代：铝制梁"
+        },
+        {
+            "input": [
+                {
+                    "name": "铝锭",
+                    "count": 1,
+                    "rapid": 75
+                }
+            ],
+            "output": [
+                {
+                    "name": "铁棒",
+                    "count": 7,
+                    "rapid": 525
+                }
+            ],
+            "name": "替代：铝棒"
+        },
+        {
+            "input": [
+                {
+                    "name": "钦金锭",
+                    "count": 1,
+                    "rapid": 15
+                }
+            ],
+            "output": [
+                {
+                    "name": "电线",
+                    "count": 8,
+                    "rapid": 120
+                }
+            ],
+            "name": "替代: 钦金电线"
+        },
+        {
+            "input": [
+                {
+                    "name": "铁锭",
+                    "count": 5,
+                    "rapid": 125
+                }
+            ],
+            "output": [
+                {
+                    "name": "电线",
+                    "count": 9,
+                    "rapid": 225
+                }
+            ],
+            "name": "替代：铁制电线"
+        },
+        {
+            "input": [
+                {
+                    "name": "钢梁",
+                    "count": 1,
+                    "rapid": 5
+                }
+            ],
+            "output": [
+                {
+                    "name": "螺丝",
+                    "count": 52,
+                    "rapid": 260
+                }
+            ],
+            "name": "替代：钢制螺丝"
+        },
+        {
+            "input": [
+                {
+                    "name": "铁锭",
+                    "count": 5,
+                    "rapid": 125
+                }
+            ],
+            "output": [
+                {
+                    "name": "螺丝",
+                    "count": 20,
+                    "rapid": 50
+                }
+            ],
+            "name": "替代：铸铁螺丝"
+        }
+    ],
+    "装配站": [
+        {
+            "input": [
+                {
+                    "name": "FICSMAS圣诞树枝",
+                    "count": 15,
+                    "rapid": 15
+                },
+                {
+                    "name": "FICSMAS挂饰套装",
+                    "count": 6,
+                    "rapid": 6
+                }
+            ],
+            "output": [
+                {
+                    "name": "FICSMAS圣诞花环",
+                    "count": 2,
+                    "rapid": 2
+                }
+            ],
+            "name": "FICSMAS圣诞花环"
+        },
+        {
+            "input": [
+                {
+                    "name": "FICSMAS圣诞花环",
+                    "count": 5,
+                    "rapid": 5
+                },
+                {
+                    "name": "拐杖糖",
+                    "count": 20,
+                    "rapid": 20
+                }
+            ],
+            "output": [
+                {
+                    "name": "FICSMAS许愿星",
+                    "count": 1,
+                    "rapid": 1
+                }
+            ],
+            "name": "FICSMAS许愿星"
+        },
+        {
+            "input": [
+                {
+                    "name": "铜制FICSMAS挂饰",
+                    "count": 1,
+                    "rapid": 5
+                },
+                {
+                    "name": "铁制FICSMAS挂饰",
+                    "count": 1,
+                    "rapid": 5
+                }
+            ],
+            "output": [
+                {
+                    "name": "FICSMAS挂饰套装",
+                    "count": 1,
+                    "rapid": 5
+                }
+            ],
+            "name": "FICSMAS挂饰套装"
+        },
+        {
+            "input": [
+                {
+                    "name": "FICSMAS圣诞树枝",
+                    "count": 6,
+                    "rapid": 15
+                },
+                {
+                    "name": "拐杖糖",
+                    "count": 3,
+                    "rapid": 75
+                }
+            ],
+            "output": [
+                {
+                    "name": "甜蜜烟花",
+                    "count": 1,
+                    "rapid": 25
+                }
+            ],
+            "name": "甜蜜烟花"
+        },
+        {
+            "input": [
+                {
+                    "name": "FICSMAS圣诞树枝",
+                    "count": 4,
+                    "rapid": 10
+                },
+                {
+                    "name": "FICSMAS蝴蝶结",
+                    "count": 3,
+                    "rapid": 75
+                }
+            ],
+            "output": [
+                {
+                    "name": "绚烂烟花",
+                    "count": 1,
+                    "rapid": 25
+                }
+            ],
+            "name": "绚烂烟花"
+        },
+        {
+            "input": [
+                {
+                    "name": "FICSMAS圣诞树枝",
+                    "count": 3,
+                    "rapid": 75
+                },
+                {
+                    "name": "FICSMAS“真雪”",
+                    "count": 2,
+                    "rapid": 5
+                }
+            ],
+            "output": [
+                {
+                    "name": "闪亮烟花",
+                    "count": 1,
+                    "rapid": 25
+                }
+            ],
+            "name": "闪亮烟花"
+        },
+        {
+            "input": [
+                {
+                    "name": "铜板",
+                    "count": 2,
+                    "rapid": 15
+                },
+                {
+                    "name": "塑料",
+                    "count": 4,
+                    "rapid": 30
+                }
+            ],
+            "output": [
+                {
+                    "name": "电路板",
+                    "count": 1,
+                    "rapid": 75
+                }
+            ],
+            "name": "电路板"
+        },
+        {
+            "input": [
+                {
+                    "name": "模块化框架",
+                    "count": 1,
+                    "rapid": 25
+                },
+                {
+                    "name": "钢梁",
+                    "count": 12,
+                    "rapid": 30
+                }
+            ],
+            "output": [
+                {
+                    "name": "多功能框架",
+                    "count": 2,
+                    "rapid": 5
+                }
+            ],
+            "name": "多功能框架"
+        },
+        {
+            "input": [
+                {
+                    "name": "铝锭",
+                    "count": 3,
+                    "rapid": 30
+                },
+                {
+                    "name": "铜锭",
+                    "count": 1,
+                    "rapid": 10
+                }
+            ],
+            "output": [
+                {
+                    "name": "复合铝板",
+                    "count": 3,
+                    "rapid": 30
+                }
+            ],
+            "name": "复合铝板"
+        },
+        {
+            "input": [
+                {
+                    "name": "钢梁",
+                    "count": 3,
+                    "rapid": 18
+                },
+                {
+                    "name": "混凝土",
+                    "count": 6,
+                    "rapid": 36
+                }
+            ],
+            "output": [
+                {
+                    "name": "钢筋混凝土梁",
+                    "count": 1,
+                    "rapid": 6
+                }
+            ],
+            "name": "钢筋混凝土梁"
+        },
+        {
+            "input": [
+                {
+                    "name": "转子",
+                    "count": 2,
+                    "rapid": 10
+                },
+                {
+                    "name": "定子",
+                    "count": 2,
+                    "rapid": 10
+                }
+            ],
+            "output": [
+                {
+                    "name": "马达",
+                    "count": 1,
+                    "rapid": 5
+                }
+            ],
+            "name": "马达"
+        },
+        {
+            "input": [
+                {
+                    "name": "钢管",
+                    "count": 3,
+                    "rapid": 15
+                },
+                {
+                    "name": "电线",
+                    "count": 8,
+                    "rapid": 40
+                }
+            ],
+            "output": [
+                {
+                    "name": "定子",
+                    "count": 1,
+                    "rapid": 5
+                }
+            ],
+            "name": "定子"
+        },
+        {
+            "input": [
+                {
+                    "name": "定子",
+                    "count": 1,
+                    "rapid": 25
+                },
+                {
+                    "name": "电缆",
+                    "count": 20,
+                    "rapid": 50
+                }
+            ],
+            "output": [
+                {
+                    "name": "自动线路",
+                    "count": 1,
+                    "rapid": 25
+                }
+            ],
+            "name": "自动线路"
+        },
+        {
+            "input": [
+                {
+                    "name": "铜板",
+                    "count": 5,
+                    "rapid": 25
+                },
+                {
+                    "name": "急速电线",
+                    "count": 20,
+                    "rapid": 100
+                }
+            ],
+            "output": [
+                {
+                    "name": "AI限制器",
+                    "count": 1,
+                    "rapid": 5
+                }
+            ],
+            "name": "AI限制器"
+        },
+        {
+            "input": [
+                {
+                    "name": "强化铁板",
+                    "count": 3,
+                    "rapid": 3
+                },
+                {
+                    "name": "铁棒",
+                    "count": 12,
+                    "rapid": 12
+                }
+            ],
+            "output": [
+                {
+                    "name": "模块化框架",
+                    "count": 2,
+                    "rapid": 2
+                }
+            ],
+            "name": "模块化框架"
+        },
+        {
+            "input": [
+                {
+                    "name": "铁棒",
+                    "count": 5,
+                    "rapid": 20
+                },
+                {
+                    "name": "螺丝",
+                    "count": 25,
+                    "rapid": 100
+                }
+            ],
+            "output": [
+                {
+                    "name": "转子",
+                    "count": 1,
+                    "rapid": 4
+                }
+            ],
+            "name": "转子"
+        },
+        {
+            "input": [
+                {
+                    "name": "强化铁板",
+                    "count": 1,
+                    "rapid": 2
+                },
+                {
+                    "name": "转子",
+                    "count": 1,
+                    "rapid": 2
+                }
+            ],
+            "output": [
+                {
+                    "name": "智能嵌板",
+                    "count": 1,
+                    "rapid": 2
+                }
+            ],
+            "name": "智能嵌板"
+        },
+        {
+            "input": [
+                {
+                    "name": "钚丸",
+                    "count": 2,
+                    "rapid": 10
+                },
+                {
+                    "name": "混凝土",
+                    "count": 4,
+                    "rapid": 20
+                }
+            ],
+            "output": [
+                {
+                    "name": "封装钚棒",
+                    "count": 1,
+                    "rapid": 5
+                }
+            ],
+            "name": "封装钚棒"
+        },
+        {
+            "input": [
+                {
+                    "name": "焊接模块化框架",
+                    "count": 1,
+                    "rapid": 1
+                },
+                {
+                    "name": "无线电控制单元",
+                    "count": 2,
+                    "rapid": 2
+                }
+            ],
+            "output": [
+                {
+                    "name": "封压方块",
+                    "count": 1,
+                    "rapid": 1
+                }
+            ],
+            "name": "封压方块"
+        },
+        {
+            "input": [
+                {
+                    "name": "自适应控制单元",
+                    "count": 2,
+                    "rapid": 15
+                },
+                {
+                    "name": "超级计算机",
+                    "count": 1,
+                    "rapid": 75
+                }
+            ],
+            "output": [
+                {
+                    "name": "组装编导系统",
+                    "count": 1,
+                    "rapid": 75
+                }
+            ],
+            "name": "组装编导系统"
+        },
+        {
+            "input": [
+                {
+                    "name": "定子",
+                    "count": 3,
+                    "rapid": 6
+                },
+                {
+                    "name": "AI限制器",
+                    "count": 2,
+                    "rapid": 4
+                }
+            ],
+            "output": [
+                {
+                    "name": "电磁控制杆",
+                    "count": 2,
+                    "rapid": 4
+                }
+            ],
+            "name": "电磁控制杆"
+        },
+        {
+            "input": [
+                {
+                    "name": "多功能框架",
+                    "count": 5,
+                    "rapid": 25
+                },
+                {
+                    "name": "电磁控制杆",
+                    "count": 2,
+                    "rapid": 1
+                }
+            ],
+            "output": [
+                {
+                    "name": "磁场发生器",
+                    "count": 2,
+                    "rapid": 1
+                }
+            ],
+            "name": "磁场发生器"
+        },
+        {
+            "input": [
+                {
+                    "name": "复合铝板",
+                    "count": 5,
+                    "rapid": 375
+                },
+                {
+                    "name": "铜板",
+                    "count": 3,
+                    "rapid": 225
+                }
+            ],
+            "output": [
+                {
+                    "name": "散热器",
+                    "count": 1,
+                    "rapid": 75
+                }
+            ],
+            "name": "散热器"
+        },
+        {
+            "input": [
+                {
+                    "name": "步枪弹药",
+                    "count": 20,
+                    "rapid": 50
+                },
+                {
+                    "name": "高速连接器",
+                    "count": 1,
+                    "rapid": 25
+                }
+            ],
+            "output": [
+                {
+                    "name": "追踪步枪弹",
+                    "count": 10,
+                    "rapid": 25
+                }
+            ],
+            "name": "追踪步枪弹"
+        },
+        {
+            "input": [
+                {
+                    "name": "铁棒弹",
+                    "count": 1,
+                    "rapid": 10
+                },
+                {
+                    "name": "急速电线",
+                    "count": 5,
+                    "rapid": 50
+                }
+            ],
+            "output": [
+                {
+                    "name": "电击铁棒弹",
+                    "count": 1,
+                    "rapid": 10
+                }
+            ],
+            "name": "电击铁棒弹"
+        },
+        {
+            "input": [
+                {
+                    "name": "诺氏雷筒",
+                    "count": 1,
+                    "rapid": 5
+                },
+                {
+                    "name": "生物质",
+                    "count": 10,
+                    "rapid": 50
+                }
+            ],
+            "output": [
+                {
+                    "name": "毒气诺石",
+                    "count": 1,
+                    "rapid": 5
+                }
+            ],
+            "name": "毒气诺石"
+        },
+        {
+            "input": [
+                {
+                    "name": "菌丝体",
+                    "count": 1,
+                    "rapid": 15
+                },
+                {
+                    "name": "生物质",
+                    "count": 5,
+                    "rapid": 75
+                }
+            ],
+            "output": [
+                {
+                    "name": "纤维织物",
+                    "count": 1,
+                    "rapid": 15
+                }
+            ],
+            "name": "纤维织物"
+        },
+        {
+            "input": [
+                {
+                    "name": "诺氏雷筒",
+                    "count": 5,
+                    "rapid": 5
+                },
+                {
+                    "name": "晶体振荡器",
+                    "count": 1,
+                    "rapid": 1
+                }
+            ],
+            "output": [
+                {
+                    "name": "脉冲诺石",
+                    "count": 5,
+                    "rapid": 5
+                }
+            ],
+            "name": "脉冲诺石"
+        },
+        {
+            "input": [
+                {
+                    "name": "铁棒弹",
+                    "count": 2,
+                    "rapid": 10
+                },
+                {
+                    "name": "石英晶体",
+                    "count": 3,
+                    "rapid": 15
+                }
+            ],
+            "output": [
+                {
+                    "name": "散射铁棒弹",
+                    "count": 1,
+                    "rapid": 5
+                }
+            ],
+            "name": "散射铁棒弹"
+        },
+        {
+            "input": [
+                {
+                    "name": "诺氏雷筒",
+                    "count": 3,
+                    "rapid": 75
+                },
+                {
+                    "name": "无烟火药",
+                    "count": 4,
+                    "rapid": 10
+                }
+            ],
+            "output": [
+                {
+                    "name": "集束诺氏雷筒",
+                    "count": 1,
+                    "rapid": 25
+                }
+            ],
+            "name": "集束诺氏雷筒"
+        },
+        {
+            "input": [
+                {
+                    "name": "铁板",
+                    "count": 6,
+                    "rapid": 30
+                },
+                {
+                    "name": "螺丝",
+                    "count": 12,
+                    "rapid": 60
+                }
+            ],
+            "output": [
+                {
+                    "name": "强化铁板",
+                    "count": 1,
+                    "rapid": 5
+                }
+            ],
+            "name": "强化铁板"
+        },
+        {
+            "input": [
+                {
+                    "name": "煤",
+                    "count": 1,
+                    "rapid": 15
+                },
+                {
+                    "name": "硫磺",
+                    "count": 1,
+                    "rapid": 15
+                }
+            ],
+            "output": [
+                {
+                    "name": "黑火药",
+                    "count": 2,
+                    "rapid": 30
+                }
+            ],
+            "name": "黑火药"
+        },
+        {
+            "input": [
+                {
+                    "name": "铜板",
+                    "count": 3,
+                    "rapid": 15
+                },
+                {
+                    "name": "无烟火药",
+                    "count": 2,
+                    "rapid": 10
+                }
+            ],
+            "output": [
+                {
+                    "name": "步枪弹药",
+                    "count": 15,
+                    "rapid": 75
+                }
+            ],
+            "name": "步枪弹药"
+        },
+        {
+            "input": [
+                {
+                    "name": "黑火药",
+                    "count": 2,
+                    "rapid": 20
+                },
+                {
+                    "name": "钢管",
+                    "count": 2,
+                    "rapid": 20
+                }
+            ],
+            "output": [
+                {
+                    "name": "诺氏雷筒",
+                    "count": 1,
+                    "rapid": 10
+                }
+            ],
+            "name": "诺氏雷筒"
+        },
+        {
+            "input": [
+                {
+                    "name": "煤",
+                    "count": 5,
+                    "rapid": 25
+                },
+                {
+                    "name": "硫磺",
+                    "count": 5,
+                    "rapid": 25
+                }
+            ],
+            "output": [
+                {
+                    "name": "压缩煤",
+                    "count": 5,
+                    "rapid": 25
+                }
+            ],
+            "name": "替代：压缩煤"
+        },
+        {
+            "input": [
+                {
+                    "name": "石灰石",
+                    "count": 10,
+                    "rapid": 100
+                },
+                {
+                    "name": "橡胶",
+                    "count": 2,
+                    "rapid": 20
+                }
+            ],
+            "output": [
+                {
+                    "name": "混凝土",
+                    "count": 9,
+                    "rapid": 90
+                }
+            ],
+            "name": "替代: 橡胶混凝土"
+        },
+        {
+            "input": [
+                {
+                    "name": "铜锭",
+                    "count": 4,
+                    "rapid": 12
+                },
+                {
+                    "name": "钦金锭",
+                    "count": 1,
+                    "rapid": 3
+                }
+            ],
+            "output": [
+                {
+                    "name": "电线",
+                    "count": 30,
+                    "rapid": 90
+                }
+            ],
+            "name": "替代：熔合电线"
+        },
+        {
+            "input": [
+                {
+                    "name": "橡胶",
+                    "count": 4,
+                    "rapid": 20
+                },
+                {
+                    "name": "油焦",
+                    "count": 8,
+                    "rapid": 40
+                }
+            ],
+            "output": [
+                {
+                    "name": "电路板",
+                    "count": 1,
+                    "rapid": 5
+                }
+            ],
+            "name": "替代：电极电路板"
+        },
+        {
+            "input": [
+                {
+                    "name": "铜板",
+                    "count": 6,
+                    "rapid": 225
+                },
+                {
+                    "name": "螺丝",
+                    "count": 52,
+                    "rapid": 195
+                }
+            ],
+            "output": [
+                {
+                    "name": "转子",
+                    "count": 3,
+                    "rapid": 1125
+                }
+            ],
+            "name": "替代：铜制转子"
+        },
+        {
+            "input": [
+                {
+                    "name": "铁锭",
+                    "count": 5,
+                    "rapid": 375
+                },
+                {
+                    "name": "塑料",
+                    "count": 1,
+                    "rapid": 75
+                }
+            ],
+            "output": [
+                {
+                    "name": "铁板",
+                    "count": 10,
+                    "rapid": 75
+                }
+            ],
+            "name": "替代：镀层铁板"
+        },
+        {
+            "input": [
+                {
+                    "name": "铁板",
+                    "count": 2,
+                    "rapid": 30
+                },
+                {
+                    "name": "铜板",
+                    "count": 1,
+                    "rapid": 15
+                }
+            ],
+            "output": [
+                {
+                    "name": "空桶",
+                    "count": 4,
+                    "rapid": 60
+                }
+            ],
+            "name": "替代：镀层铁桶"
+        },
+        {
+            "input": [
+                {
+                    "name": "强化铁板",
+                    "count": 3,
+                    "rapid": 75
+                },
+                {
+                    "name": "螺丝",
+                    "count": 56,
+                    "rapid": 140
+                }
+            ],
+            "output": [
+                {
+                    "name": "模块化框架",
+                    "count": 2,
+                    "rapid": 5
+                }
+            ],
+            "name": "替代：铆接式框架"
+        },
+        {
+            "input": [
+                {
+                    "name": "铁板",
+                    "count": 3,
+                    "rapid": 1125
+                },
+                {
+                    "name": "橡胶",
+                    "count": 1,
+                    "rapid": 375
+                }
+            ],
+            "output": [
+                {
+                    "name": "强化铁板",
+                    "count": 1,
+                    "rapid": 375
+                }
+            ],
+            "name": "替代：粘合铁板"
+        },
+        {
+            "input": [
+                {
+                    "name": "封装钚棒",
+                    "count": 20,
+                    "rapid": 10
+                },
+                {
+                    "name": "封压方块",
+                    "count": 1,
+                    "rapid": 5
+                }
+            ],
+            "output": [
+                {
+                    "name": "钚燃料棒",
+                    "count": 1,
+                    "rapid": 5
+                }
+            ],
+            "name": "替代：钚燃料单元"
+        },
+        {
+            "input": [
+                {
+                    "name": "无线电控制单元",
+                    "count": 2,
+                    "rapid": 6
+                },
+                {
+                    "name": "冷却系统",
+                    "count": 2,
+                    "rapid": 6
+                }
+            ],
+            "output": [
+                {
+                    "name": "超级计算机",
+                    "count": 1,
+                    "rapid": 3
+                }
+            ],
+            "name": "替代：超频超级计算机"
+        },
+        {
+            "input": [
+                {
+                    "name": "电磁控制杆",
+                    "count": 1,
+                    "rapid": 375
+                },
+                {
+                    "name": "转子",
+                    "count": 2,
+                    "rapid": 75
+                }
+            ],
+            "output": [
+                {
+                    "name": "马达",
+                    "count": 2,
+                    "rapid": 75
+                }
+            ],
+            "name": "替代：电磁马达"
+        },
+        {
+            "input": [
+                {
+                    "name": "钢管",
+                    "count": 4,
+                    "rapid": 0
+                },
+                {
+                    "name": "铁板",
+                    "count": 4,
+                    "rapid": 0
+                }
+            ],
+            "output": [
+                {
+                    "name": "便携式采矿机",
+                    "count": 1,
+                    "rapid": 0
+                }
+            ],
+            "name": "替代：自动式采矿机"
+        },
+        {
+            "input": [
+                {
+                    "name": "铝锭",
+                    "count": 20,
+                    "rapid": 150
+                },
+                {
+                    "name": "铜锭",
+                    "count": 10,
+                    "rapid": 75
+                }
+            ],
+            "output": [
+                {
+                    "name": "铝制外壳",
+                    "count": 15,
+                    "rapid": 1125
+                }
+            ],
+            "name": "替代：复合铝外壳"
+        },
+        {
+            "input": [
+                {
+                    "name": "急速电线",
+                    "count": 30,
+                    "rapid": 120
+                },
+                {
+                    "name": "塑料",
+                    "count": 7,
+                    "rapid": 28
+                }
+            ],
+            "output": [
+                {
+                    "name": "AI限制器",
+                    "count": 2,
+                    "rapid": 8
+                }
+            ],
+            "name": "替代：塑料AI限制器"
+        },
+        {
+            "input": [
+                {
+                    "name": "钢管",
+                    "count": 4,
+                    "rapid": 16
+                },
+                {
+                    "name": "急速电线",
+                    "count": 15,
+                    "rapid": 60
+                }
+            ],
+            "output": [
+                {
+                    "name": "定子",
+                    "count": 2,
+                    "rapid": 8
+                }
+            ],
+            "name": "替代：急速电线定子"
+        },
+        {
+            "input": [
+                {
+                    "name": "粗石英",
+                    "count": 3,
+                    "rapid": 225
+                },
+                {
+                    "name": "石灰石",
+                    "count": 5,
+                    "rapid": 375
+                }
+            ],
+            "output": [
+                {
+                    "name": "二氧化硅",
+                    "count": 7,
+                    "rapid": 525
+                }
+            ],
+            "name": "替代：粗制二氧化硅"
+        },
+        {
+            "input": [
+                {
+                    "name": "钢管",
+                    "count": 2,
+                    "rapid": 10
+                },
+                {
+                    "name": "电线",
+                    "count": 6,
+                    "rapid": 30
+                }
+            ],
+            "output": [
+                {
+                    "name": "转子",
+                    "count": 1,
+                    "rapid": 5
+                }
+            ],
+            "name": "替代：钢制转子"
+        },
+        {
+            "input": [
+                {
+                    "name": "钢管",
+                    "count": 6,
+                    "rapid": 24
+                },
+                {
+                    "name": "混凝土",
+                    "count": 5,
+                    "rapid": 20
+                }
+            ],
+            "output": [
+                {
+                    "name": "钢筋混凝土梁",
+                    "count": 1,
+                    "rapid": 4
+                }
+            ],
+            "name": "替代：钢管混凝土梁"
+        },
+        {
+            "input": [
+                {
+                    "name": "铁板",
+                    "count": 10,
+                    "rapid": 1875
+                },
+                {
+                    "name": "电线",
+                    "count": 20,
+                    "rapid": 375
+                }
+            ],
+            "output": [
+                {
+                    "name": "强化铁板",
+                    "count": 3,
+                    "rapid": 5625
+                }
+            ],
+            "name": "替代：拼接铁板"
+        },
+        {
+            "input": [
+                {
+                    "name": "铁板",
+                    "count": 18,
+                    "rapid": 90
+                },
+                {
+                    "name": "螺丝",
+                    "count": 50,
+                    "rapid": 250
+                }
+            ],
+            "output": [
+                {
+                    "name": "强化铁板",
+                    "count": 3,
+                    "rapid": 15
+                }
+            ],
+            "name": "替代：铆接铁板"
+        },
+        {
+            "input": [
+                {
+                    "name": "钦金锭",
+                    "count": 1,
+                    "rapid": 75
+                },
+                {
+                    "name": "铜锭",
+                    "count": 5,
+                    "rapid": 375
+                }
+            ],
+            "output": [
+                {
+                    "name": "急速电线",
+                    "count": 12,
+                    "rapid": 90
+                }
+            ],
+            "name": "替代：熔合急速电线"
+        },
+        {
+            "input": [
+                {
+                    "name": "强化铁板",
+                    "count": 2,
+                    "rapid": 2
+                },
+                {
+                    "name": "钢管",
+                    "count": 10,
+                    "rapid": 10
+                }
+            ],
+            "output": [
+                {
+                    "name": "模块化框架",
+                    "count": 3,
+                    "rapid": 3
+                }
+            ],
+            "name": "替代：钢制框架"
+        },
+        {
+            "input": [
+                {
+                    "name": "铝制外壳",
+                    "count": 3,
+                    "rapid": 30
+                },
+                {
+                    "name": "橡胶",
+                    "count": 3,
+                    "rapid": 30
+                }
+            ],
+            "output": [
+                {
+                    "name": "散热器",
+                    "count": 1,
+                    "rapid": 10
+                }
+            ],
+            "name": "替代：热交换器"
+        },
+        {
+            "input": [
+                {
+                    "name": "硫磺",
+                    "count": 1,
+                    "rapid": 75
+                },
+                {
+                    "name": "压缩煤",
+                    "count": 2,
+                    "rapid": 15
+                }
+            ],
+            "output": [
+                {
+                    "name": "黑火药",
+                    "count": 6,
+                    "rapid": 45
+                }
+            ],
+            "name": "替代: 细末黑火药"
+        },
+        {
+            "input": [
+                {
+                    "name": "定子",
+                    "count": 2,
+                    "rapid": 8
+                },
+                {
+                    "name": "高速连接器",
+                    "count": 1,
+                    "rapid": 4
+                }
+            ],
+            "output": [
+                {
+                    "name": "电磁控制杆",
+                    "count": 2,
+                    "rapid": 8
+                }
+            ],
+            "name": "替代：电磁连接杆"
+        },
+        {
+            "input": [
+                {
+                    "name": "二氧化硅",
+                    "count": 3,
+                    "rapid": 15
+                },
+                {
+                    "name": "石灰石",
+                    "count": 12,
+                    "rapid": 60
+                }
+            ],
+            "output": [
+                {
+                    "name": "混凝土",
+                    "count": 10,
+                    "rapid": 50
+                }
+            ],
+            "name": "替代：细末混凝土"
+        },
+        {
+            "input": [
+                {
+                    "name": "电路板",
+                    "count": 3,
+                    "rapid": 5
+                },
+                {
+                    "name": "晶体振荡器",
+                    "count": 1,
+                    "rapid": 16666666666667
+                }
+            ],
+            "output": [
+                {
+                    "name": "计算机",
+                    "count": 2,
+                    "rapid": 33333333333333
+                }
+            ],
+            "name": "替代：晶体计算机"
+        },
+        {
+            "input": [
+                {
+                    "name": "塑料",
+                    "count": 10,
+                    "rapid": 125
+                },
+                {
+                    "name": "急速电线",
+                    "count": 30,
+                    "rapid": 375
+                }
+            ],
+            "output": [
+                {
+                    "name": "电路板",
+                    "count": 7,
+                    "rapid": 875
+                }
+            ],
+            "name": "替代：钦金电路板"
+        },
+        {
+            "input": [
+                {
+                    "name": "铜板",
+                    "count": 11,
+                    "rapid": 275
+                },
+                {
+                    "name": "二氧化硅",
+                    "count": 11,
+                    "rapid": 275
+                }
+            ],
+            "output": [
+                {
+                    "name": "电路板",
+                    "count": 5,
+                    "rapid": 125
+                }
+            ],
+            "name": "替代：硅基电路板"
+        },
+        {
+            "input": [
+                {
+                    "name": "急速电线",
+                    "count": 3,
+                    "rapid": 75
+                },
+                {
+                    "name": "橡胶",
+                    "count": 2,
+                    "rapid": 5
+                }
+            ],
+            "output": [
+                {
+                    "name": "电缆",
+                    "count": 11,
+                    "rapid": 275
+                }
+            ],
+            "name": "替代：急速电缆"
+        },
+        {
+            "input": [
+                {
+                    "name": "电线",
+                    "count": 9,
+                    "rapid": 45
+                },
+                {
+                    "name": "橡胶",
+                    "count": 6,
+                    "rapid": 30
+                }
+            ],
+            "output": [
+                {
+                    "name": "电缆",
+                    "count": 20,
+                    "rapid": 100
+                }
+            ],
+            "name": "替代：绝缘电缆"
+        }
+    ],
+    "制造站": [
+        {
+            "input": [
+                {
+                    "name": "活性SAM物质",
+                    "count": 6,
+                    "rapid": 60
+                },
+                {
+                    "name": "电线",
+                    "count": 5,
+                    "rapid": 50
+                },
+                {
+                    "name": "钢管",
+                    "count": 3,
+                    "rapid": 30
+                }
+            ],
+            "output": [
+                {
+                    "name": "SAM物质波波动器",
+                    "count": 1,
+                    "rapid": 10
+                }
+            ],
+            "name": "SAM物质波波动器"
+        },
+        {
+            "input": [
+                {
+                    "name": "石英晶体",
+                    "count": 36,
+                    "rapid": 18
+                },
+                {
+                    "name": "电缆",
+                    "count": 28,
+                    "rapid": 14
+                },
+                {
+                    "name": "强化铁板",
+                    "count": 5,
+                    "rapid": 25
+                }
+            ],
+            "output": [
+                {
+                    "name": "晶体振荡器",
+                    "count": 2,
+                    "rapid": 1
+                }
+            ],
+            "name": "晶体振荡器"
+        },
+        {
+            "input": [
+                {
+                    "name": "电路板",
+                    "count": 4,
+                    "rapid": 10
+                },
+                {
+                    "name": "电缆",
+                    "count": 8,
+                    "rapid": 20
+                },
+                {
+                    "name": "塑料",
+                    "count": 16,
+                    "rapid": 40
+                }
+            ],
+            "output": [
+                {
+                    "name": "计算机",
+                    "count": 1,
+                    "rapid": 25
+                }
+            ],
+            "name": "计算机"
+        },
+        {
+            "input": [
+                {
+                    "name": "模块化框架",
+                    "count": 5,
+                    "rapid": 10
+                },
+                {
+                    "name": "钢管",
+                    "count": 20,
+                    "rapid": 40
+                },
+                {
+                    "name": "钢筋混凝土梁",
+                    "count": 5,
+                    "rapid": 10
+                },
+                {
+                    "name": "螺丝",
+                    "count": 120,
+                    "rapid": 240
+                }
+            ],
+            "output": [
+                {
+                    "name": "重型模块化框架",
+                    "count": 1,
+                    "rapid": 2
+                }
+            ],
+            "name": "重型模块化框架"
+        },
+        {
+            "input": [
+                {
+                    "name": "马达",
+                    "count": 2,
+                    "rapid": 2
+                },
+                {
+                    "name": "橡胶",
+                    "count": 15,
+                    "rapid": 15
+                },
+                {
+                    "name": "智能嵌板",
+                    "count": 2,
+                    "rapid": 2
+                }
+            ],
+            "output": [
+                {
+                    "name": "模块化引擎",
+                    "count": 1,
+                    "rapid": 1
+                }
+            ],
+            "name": "模块化引擎"
+        },
+        {
+            "input": [
+                {
+                    "name": "自动线路",
+                    "count": 5,
+                    "rapid": 5
+                },
+                {
+                    "name": "电路板",
+                    "count": 5,
+                    "rapid": 5
+                },
+                {
+                    "name": "重型模块化框架",
+                    "count": 1,
+                    "rapid": 1
+                },
+                {
+                    "name": "计算机",
+                    "count": 2,
+                    "rapid": 2
+                }
+            ],
+            "output": [
+                {
+                    "name": "自适应控制单元",
+                    "count": 1,
+                    "rapid": 1
+                }
+            ],
+            "name": "自适应控制单元"
+        },
+        {
+            "input": [
+                {
+                    "name": "封装钚棒",
+                    "count": 30,
+                    "rapid": 75
+                },
+                {
+                    "name": "钢梁",
+                    "count": 18,
+                    "rapid": 45
+                },
+                {
+                    "name": "电磁控制杆",
+                    "count": 6,
+                    "rapid": 15
+                },
+                {
+                    "name": "散热器",
+                    "count": 10,
+                    "rapid": 25
+                }
+            ],
+            "output": [
+                {
+                    "name": "钚燃料棒",
+                    "count": 1,
+                    "rapid": 25
+                }
+            ],
+            "name": "钚燃料棒"
+        },
+        {
+            "input": [
+                {
+                    "name": "计算机",
+                    "count": 4,
+                    "rapid": 75
+                },
+                {
+                    "name": "AI限制器",
+                    "count": 2,
+                    "rapid": 375
+                },
+                {
+                    "name": "高速连接器",
+                    "count": 3,
+                    "rapid": 5625
+                },
+                {
+                    "name": "塑料",
+                    "count": 28,
+                    "rapid": 525
+                }
+            ],
+            "output": [
+                {
+                    "name": "超级计算机",
+                    "count": 1,
+                    "rapid": 1875
+                }
+            ],
+            "name": "超级计算机"
+        },
+        {
+            "input": [
+                {
+                    "name": "铝制外壳",
+                    "count": 32,
+                    "rapid": 40
+                },
+                {
+                    "name": "晶体振荡器",
+                    "count": 1,
+                    "rapid": 125
+                },
+                {
+                    "name": "计算机",
+                    "count": 2,
+                    "rapid": 25
+                }
+            ],
+            "output": [
+                {
+                    "name": "无线电控制单元",
+                    "count": 2,
+                    "rapid": 25
+                }
+            ],
+            "name": "无线电控制单元"
+        },
+        {
+            "input": [
+                {
+                    "name": "急速电线",
+                    "count": 56,
+                    "rapid": 210
+                },
+                {
+                    "name": "电缆",
+                    "count": 10,
+                    "rapid": 375
+                },
+                {
+                    "name": "电路板",
+                    "count": 1,
+                    "rapid": 375
+                }
+            ],
+            "output": [
+                {
+                    "name": "高速连接器",
+                    "count": 1,
+                    "rapid": 375
+                }
+            ],
+            "name": "高速连接器"
+        },
+        {
+            "input": [
+                {
+                    "name": "封装铀棒",
+                    "count": 50,
+                    "rapid": 20
+                },
+                {
+                    "name": "钢筋混凝土梁",
+                    "count": 3,
+                    "rapid": 12
+                },
+                {
+                    "name": "电磁控制杆",
+                    "count": 5,
+                    "rapid": 2
+                }
+            ],
+            "output": [
+                {
+                    "name": "铀燃料棒",
+                    "count": 1,
+                    "rapid": 4
+                }
+            ],
+            "name": "铀燃料棒"
+        },
+        {
+            "input": [
+                {
+                    "name": "冷却系统",
+                    "count": 4,
+                    "rapid": 75
+                },
+                {
+                    "name": "无线电控制单元",
+                    "count": 2,
+                    "rapid": 375
+                },
+                {
+                    "name": "马达",
+                    "count": 4,
+                    "rapid": 75
+                },
+                {
+                    "name": "橡胶",
+                    "count": 24,
+                    "rapid": 45
+                }
+            ],
+            "output": [
+                {
+                    "name": "涡轮马达",
+                    "count": 1,
+                    "rapid": 1875
+                }
+            ],
+            "name": "涡轮马达"
+        },
+        {
+            "input": [
+                {
+                    "name": "模块化引擎",
+                    "count": 5,
+                    "rapid": 25
+                },
+                {
+                    "name": "涡轮马达",
+                    "count": 2,
+                    "rapid": 1
+                },
+                {
+                    "name": "冷却系统",
+                    "count": 6,
+                    "rapid": 3
+                },
+                {
+                    "name": "焊接模块化框架",
+                    "count": 2,
+                    "rapid": 1
+                }
+            ],
+            "output": [
+                {
+                    "name": "热能推进火箭",
+                    "count": 2,
+                    "rapid": 1
+                }
+            ],
+            "name": "热能推进火箭"
+        },
+        {
+            "input": [
+                {
+                    "name": "核意面",
+                    "count": 1,
+                    "rapid": 1
+                },
+                {
+                    "name": "暗物质晶体",
+                    "count": 20,
+                    "rapid": 20
+                },
+                {
+                    "name": "铁板",
+                    "count": 100,
+                    "rapid": 100
+                },
+                {
+                    "name": "混凝土",
+                    "count": 200,
+                    "rapid": 200
+                }
+            ],
+            "output": [
+                {
+                    "name": "奇点电池",
+                    "count": 10,
+                    "rapid": 10
+                }
+            ],
+            "name": "奇点电池"
+        },
+        {
+            "input": [
+                {
+                    "name": "热能推进火箭",
+                    "count": 1,
+                    "rapid": 1
+                },
+                {
+                    "name": "奇点电池",
+                    "count": 5,
+                    "rapid": 5
+                },
+                {
+                    "name": "叠加振荡器",
+                    "count": 2,
+                    "rapid": 2
+                },
+                {
+                    "name": "暗物质晶体",
+                    "count": 40,
+                    "rapid": 40
+                }
+            ],
+            "output": [
+                {
+                    "name": "弹道跃迁引擎",
+                    "count": 1,
+                    "rapid": 1
+                }
+            ],
+            "name": "弹道跃迁引擎"
+        },
+        {
+            "input": [
+                {
+                    "name": "步枪弹药",
+                    "count": 25,
+                    "rapid": 125
+                },
+                {
+                    "name": "铝制外壳",
+                    "count": 3,
+                    "rapid": 15
+                },
+                {
+                    "name": "桶装涡轮燃油",
+                    "count": 3,
+                    "rapid": 15
+                }
+            ],
+            "output": [
+                {
+                    "name": "涡轮步枪弹",
+                    "count": 50,
+                    "rapid": 250
+                }
+            ],
+            "name": "涡轮步枪弹"
+        },
+        {
+            "input": [
+                {
+                    "name": "诺氏雷筒",
+                    "count": 5,
+                    "rapid": 25
+                },
+                {
+                    "name": "封装铀棒",
+                    "count": 20,
+                    "rapid": 10
+                },
+                {
+                    "name": "无烟火药",
+                    "count": 10,
+                    "rapid": 5
+                },
+                {
+                    "name": "AI限制器",
+                    "count": 6,
+                    "rapid": 3
+                }
+            ],
+            "output": [
+                {
+                    "name": "核子诺氏雷筒",
+                    "count": 1,
+                    "rapid": 5
+                }
+            ],
+            "name": "核子诺氏雷筒"
+        },
+        {
+            "input": [
+                {
+                    "name": "铁棒弹",
+                    "count": 2,
+                    "rapid": 10
+                },
+                {
+                    "name": "无烟火药",
+                    "count": 2,
+                    "rapid": 10
+                },
+                {
+                    "name": "钢管",
+                    "count": 2,
+                    "rapid": 10
+                }
+            ],
+            "output": [
+                {
+                    "name": "爆炸铁棒弹",
+                    "count": 1,
+                    "rapid": 5
+                }
+            ],
+            "name": "爆炸铁棒弹"
+        },
+        {
+            "input": [
+                {
+                    "name": "气体过滤器",
+                    "count": 1,
+                    "rapid": 375
+                },
+                {
+                    "name": "急速电线",
+                    "count": 8,
+                    "rapid": 30
+                },
+                {
+                    "name": "铝制外壳",
+                    "count": 1,
+                    "rapid": 375
+                }
+            ],
+            "output": [
+                {
+                    "name": "碘化过滤器",
+                    "count": 1,
+                    "rapid": 375
+                }
+            ],
+            "name": "碘化过滤器"
+        },
+        {
+            "input": [
+                {
+                    "name": "纤维织物",
+                    "count": 2,
+                    "rapid": 15
+                },
+                {
+                    "name": "煤",
+                    "count": 4,
+                    "rapid": 30
+                },
+                {
+                    "name": "铁板",
+                    "count": 2,
+                    "rapid": 15
+                }
+            ],
+            "output": [
+                {
+                    "name": "气体过滤器",
+                    "count": 1,
+                    "rapid": 75
+                }
+            ],
+            "name": "气体过滤器"
+        },
+        {
+            "input": [
+                {
+                    "name": "强化铁板",
+                    "count": 1,
+                    "rapid": 25
+                },
+                {
+                    "name": "转子",
+                    "count": 1,
+                    "rapid": 25
+                },
+                {
+                    "name": "塑料",
+                    "count": 3,
+                    "rapid": 75
+                }
+            ],
+            "output": [
+                {
+                    "name": "智能嵌板",
+                    "count": 2,
+                    "rapid": 5
+                }
+            ],
+            "name": "替代：塑料智能嵌板"
+        },
+        {
+            "input": [
+                {
+                    "name": "定子",
+                    "count": 2,
+                    "rapid": 375
+                },
+                {
+                    "name": "电线",
+                    "count": 40,
+                    "rapid": 75
+                },
+                {
+                    "name": "高速连接器",
+                    "count": 1,
+                    "rapid": 1875
+                }
+            ],
+            "output": [
+                {
+                    "name": "自动线路",
+                    "count": 4,
+                    "rapid": 75
+                }
+            ],
+            "name": "替代：自动化高速线缆"
+        },
+        {
+            "input": [
+                {
+                    "name": "模块化框架",
+                    "count": 5,
+                    "rapid": 1875
+                },
+                {
+                    "name": "钢筋混凝土梁",
+                    "count": 3,
+                    "rapid": 1125
+                },
+                {
+                    "name": "橡胶",
+                    "count": 20,
+                    "rapid": 75
+                },
+                {
+                    "name": "螺丝",
+                    "count": 104,
+                    "rapid": 390
+                }
+            ],
+            "output": [
+                {
+                    "name": "重型模块化框架",
+                    "count": 1,
+                    "rapid": 375
+                }
+            ],
+            "name": "替代：重型柔韧框架"
+        },
+        {
+            "input": [
+                {
+                    "name": "模块化框架",
+                    "count": 1,
+                    "rapid": 375
+                },
+                {
+                    "name": "钢梁",
+                    "count": 6,
+                    "rapid": 225
+                },
+                {
+                    "name": "橡胶",
+                    "count": 8,
+                    "rapid": 30
+                }
+            ],
+            "output": [
+                {
+                    "name": "多功能框架",
+                    "count": 2,
+                    "rapid": 75
+                }
+            ],
+            "name": "替代：灵活型框架"
+        },
+        {
+            "input": [
+                {
+                    "name": "马达",
+                    "count": 4,
+                    "rapid": 75
+                },
+                {
+                    "name": "封压方块",
+                    "count": 1,
+                    "rapid": 1875
+                },
+                {
+                    "name": "瓶装氮气",
+                    "count": 24,
+                    "rapid": 45
+                },
+                {
+                    "name": "定子",
+                    "count": 8,
+                    "rapid": 15
+                }
+            ],
+            "output": [
+                {
+                    "name": "涡轮马达",
+                    "count": 2,
+                    "rapid": 375
+                }
+            ],
+            "name": "替代: 涡轮增压电机"
+        },
+        {
+            "input": [
+                {
+                    "name": "计算机",
+                    "count": 3,
+                    "rapid": 72
+                },
+                {
+                    "name": "电磁控制杆",
+                    "count": 1,
+                    "rapid": 24
+                },
+                {
+                    "name": "电池",
+                    "count": 10,
+                    "rapid": 24
+                },
+                {
+                    "name": "电线",
+                    "count": 25,
+                    "rapid": 60
+                }
+            ],
+            "output": [
+                {
+                    "name": "超级计算机",
+                    "count": 1,
+                    "rapid": 24
+                }
+            ],
+            "name": "替代：超状态计算机"
+        },
+        {
+            "input": [
+                {
+                    "name": "晶体振荡器",
+                    "count": 1,
+                    "rapid": 15
+                },
+                {
+                    "name": "电路板",
+                    "count": 10,
+                    "rapid": 15
+                },
+                {
+                    "name": "铝制外壳",
+                    "count": 60,
+                    "rapid": 90
+                },
+                {
+                    "name": "橡胶",
+                    "count": 30,
+                    "rapid": 45
+                }
+            ],
+            "output": [
+                {
+                    "name": "无线电控制单元",
+                    "count": 3,
+                    "rapid": 45
+                }
+            ],
+            "name": "替代：无线电控制系统"
+        },
+        {
+            "input": [
+                {
+                    "name": "硫磺",
+                    "count": 6,
+                    "rapid": 45
+                },
+                {
+                    "name": "复合铝板",
+                    "count": 7,
+                    "rapid": 525
+                },
+                {
+                    "name": "塑料",
+                    "count": 8,
+                    "rapid": 60
+                },
+                {
+                    "name": "电线",
+                    "count": 12,
+                    "rapid": 90
+                }
+            ],
+            "output": [
+                {
+                    "name": "电池",
+                    "count": 4,
+                    "rapid": 30
+                }
+            ],
+            "name": "替代：传统电池"
+        },
+        {
+            "input": [
+                {
+                    "name": "铀",
+                    "count": 5,
+                    "rapid": 25
+                },
+                {
+                    "name": "二氧化硅",
+                    "count": 3,
+                    "rapid": 15
+                },
+                {
+                    "name": "硫磺",
+                    "count": 5,
+                    "rapid": 25
+                },
+                {
+                    "name": "急速电线",
+                    "count": 15,
+                    "rapid": 75
+                }
+            ],
+            "output": [
+                {
+                    "name": "封装铀棒",
+                    "count": 4,
+                    "rapid": 20
+                }
+            ],
+            "name": "替代：混合型铀棒"
+        },
+        {
+            "input": [
+                {
+                    "name": "马达",
+                    "count": 7,
+                    "rapid": 65625
+                },
+                {
+                    "name": "无线电控制单元",
+                    "count": 9,
+                    "rapid": 84375
+                },
+                {
+                    "name": "电磁控制杆",
+                    "count": 5,
+                    "rapid": 46875
+                },
+                {
+                    "name": "转子",
+                    "count": 7,
+                    "rapid": 65625
+                }
+            ],
+            "output": [
+                {
+                    "name": "涡轮马达",
+                    "count": 3,
+                    "rapid": 28125
+                }
+            ],
+            "name": "替代：涡轮电磁马达"
+        },
+        {
+            "input": [
+                {
+                    "name": "散热器",
+                    "count": 4,
+                    "rapid": 15
+                },
+                {
+                    "name": "高速连接器",
+                    "count": 2,
+                    "rapid": 75
+                },
+                {
+                    "name": "石英晶体",
+                    "count": 12,
+                    "rapid": 45
+                }
+            ],
+            "output": [
+                {
+                    "name": "无线电控制单元",
+                    "count": 1,
+                    "rapid": 375
+                }
+            ],
+            "name": "替代: 无线电连接单元"
+        },
+        {
+            "input": [
+                {
+                    "name": "封装铀棒",
+                    "count": 100,
+                    "rapid": 20
+                },
+                {
+                    "name": "电磁控制杆",
+                    "count": 10,
+                    "rapid": 2
+                },
+                {
+                    "name": "晶体振荡器",
+                    "count": 3,
+                    "rapid": 6
+                },
+                {
+                    "name": "转子",
+                    "count": 10,
+                    "rapid": 2
+                }
+            ],
+            "output": [
+                {
+                    "name": "铀燃料棒",
+                    "count": 3,
+                    "rapid": 6
+                }
+            ],
+            "name": "替代：铀燃料单元"
+        },
+        {
+            "input": [
+                {
+                    "name": "转子",
+                    "count": 3,
+                    "rapid": 375
+                },
+                {
+                    "name": "定子",
+                    "count": 3,
+                    "rapid": 375
+                },
+                {
+                    "name": "晶体振荡器",
+                    "count": 1,
+                    "rapid": 125
+                }
+            ],
+            "output": [
+                {
+                    "name": "马达",
+                    "count": 6,
+                    "rapid": 75
+                }
+            ],
+            "name": "替代：牢固马达"
+        },
+        {
+            "input": [
+                {
+                    "name": "急速电线",
+                    "count": 60,
+                    "rapid": 90
+                },
+                {
+                    "name": "二氧化硅",
+                    "count": 25,
+                    "rapid": 375
+                },
+                {
+                    "name": "电路板",
+                    "count": 2,
+                    "rapid": 3
+                }
+            ],
+            "output": [
+                {
+                    "name": "高速连接器",
+                    "count": 2,
+                    "rapid": 3
+                }
+            ],
+            "name": "替代：硅基高速连接器"
+        },
+        {
+            "input": [
+                {
+                    "name": "模块化框架",
+                    "count": 8,
+                    "rapid": 75
+                },
+                {
+                    "name": "钢筋混凝土梁",
+                    "count": 10,
+                    "rapid": 9375
+                },
+                {
+                    "name": "钢管",
+                    "count": 36,
+                    "rapid": 3375
+                },
+                {
+                    "name": "混凝土",
+                    "count": 22,
+                    "rapid": 20625
+                }
+            ],
+            "output": [
+                {
+                    "name": "重型模块化框架",
+                    "count": 3,
+                    "rapid": 28125
+                }
+            ],
+            "name": "替代：重型封闭式框架"
+        },
+        {
+            "input": [
+                {
+                    "name": "石英晶体",
+                    "count": 10,
+                    "rapid": 1875
+                },
+                {
+                    "name": "橡胶",
+                    "count": 7,
+                    "rapid": 13125
+                },
+                {
+                    "name": "AI限制器",
+                    "count": 1,
+                    "rapid": 1875
+                }
+            ],
+            "output": [
+                {
+                    "name": "晶体振荡器",
+                    "count": 1,
+                    "rapid": 1875
+                }
+            ],
+            "name": "替代：绝缘晶体振荡器"
+        },
+        {
+            "input": [
+                {
+                    "name": "电路板",
+                    "count": 4,
+                    "rapid": 15
+                },
+                {
+                    "name": "急速电线",
+                    "count": 14,
+                    "rapid": 525
+                },
+                {
+                    "name": "橡胶",
+                    "count": 6,
+                    "rapid": 225
+                }
+            ],
+            "output": [
+                {
+                    "name": "计算机",
+                    "count": 1,
+                    "rapid": 375
+                }
+            ],
+            "name": "替代：钦金计算机"
+        }
+    ],
+    "精炼站": [
+        {
+            "input": [
+                {
+                    "name": "火箭燃料",
+                    "count": 16,
+                    "rapid": 40
+                },
+                {
+                    "name": "能量碎片",
+                    "count": 1,
+                    "rapid": 25
+                }
+            ],
+            "output": [
+                {
+                    "name": "电离燃油",
+                    "count": 16,
+                    "rapid": 40
+                },
+                {
+                    "name": "压缩煤",
+                    "count": 2,
+                    "rapid": 5
+                }
+            ],
+            "name": "电离燃油"
+        },
+        {
+            "input": [
+                {
+                    "name": "原油",
+                    "count": 6,
+                    "rapid": 60
+                }
+            ],
+            "output": [
+                {
+                    "name": "燃料",
+                    "count": 4,
+                    "rapid": 40
+                },
+                {
+                    "name": "聚合树脂",
+                    "count": 3,
+                    "rapid": 30
+                }
+            ],
+            "name": "燃料"
+        },
+        {
+            "input": [
+                {
+                    "name": "重油残渣",
+                    "count": 4,
+                    "rapid": 40
+                }
+            ],
+            "output": [
+                {
+                    "name": "油焦",
+                    "count": 12,
+                    "rapid": 120
+                }
+            ],
+            "name": "油焦"
+        },
+        {
+            "input": [
+                {
+                    "name": "原油",
+                    "count": 3,
+                    "rapid": 30
+                }
+            ],
+            "output": [
+                {
+                    "name": "塑料",
+                    "count": 2,
+                    "rapid": 20
+                },
+                {
+                    "name": "重油残渣",
+                    "count": 1,
+                    "rapid": 10
+                }
+            ],
+            "name": "塑料"
+        },
+        {
+            "input": [
+                {
+                    "name": "原油",
+                    "count": 3,
+                    "rapid": 30
+                }
+            ],
+            "output": [
+                {
+                    "name": "橡胶",
+                    "count": 2,
+                    "rapid": 20
+                },
+                {
+                    "name": "重油残渣",
+                    "count": 2,
+                    "rapid": 20
+                }
+            ],
+            "name": "橡胶"
+        },
+        {
+            "input": [
+                {
+                    "name": "重油残渣",
+                    "count": 6,
+                    "rapid": 60
+                }
+            ],
+            "output": [
+                {
+                    "name": "燃料",
+                    "count": 4,
+                    "rapid": 40
+                }
+            ],
+            "name": "残渣燃料油"
+        },
+        {
+            "input": [
+                {
+                    "name": "聚合树脂",
+                    "count": 6,
+                    "rapid": 60
+                },
+                {
+                    "name": "水",
+                    "count": 2,
+                    "rapid": 20
+                }
+            ],
+            "output": [
+                {
+                    "name": "塑料",
+                    "count": 2,
+                    "rapid": 20
+                }
+            ],
+            "name": "聚合塑料"
+        },
+        {
+            "input": [
+                {
+                    "name": "聚合树脂",
+                    "count": 4,
+                    "rapid": 40
+                },
+                {
+                    "name": "水",
+                    "count": 4,
+                    "rapid": 40
+                }
+            ],
+            "output": [
+                {
+                    "name": "橡胶",
+                    "count": 2,
+                    "rapid": 20
+                }
+            ],
+            "name": "聚合橡胶"
+        },
+        {
+            "input": [
+                {
+                    "name": "固态生物燃料",
+                    "count": 6,
+                    "rapid": 90
+                },
+                {
+                    "name": "水",
+                    "count": 3,
+                    "rapid": 45
+                }
+            ],
+            "output": [
+                {
+                    "name": "液态生物燃料",
+                    "count": 4,
+                    "rapid": 60
+                }
+            ],
+            "name": "液态生物燃料"
+        },
+        {
+            "input": [
+                {
+                    "name": "铝土矿",
+                    "count": 12,
+                    "rapid": 120
+                },
+                {
+                    "name": "水",
+                    "count": 18,
+                    "rapid": 180
+                }
+            ],
+            "output": [
+                {
+                    "name": "氧化铝溶液",
+                    "count": 12,
+                    "rapid": 120
+                },
+                {
+                    "name": "二氧化硅",
+                    "count": 5,
+                    "rapid": 50
+                }
+            ],
+            "name": "氧化铝溶液"
+        },
+        {
+            "input": [
+                {
+                    "name": "氧化铝溶液",
+                    "count": 4,
+                    "rapid": 240
+                },
+                {
+                    "name": "煤",
+                    "count": 2,
+                    "rapid": 120
+                }
+            ],
+            "output": [
+                {
+                    "name": "碎铝渣",
+                    "count": 6,
+                    "rapid": 360
+                },
+                {
+                    "name": "水",
+                    "count": 2,
+                    "rapid": 120
+                }
+            ],
+            "name": "碎铝渣"
+        },
+        {
+            "input": [
+                {
+                    "name": "硫磺",
+                    "count": 5,
+                    "rapid": 50
+                },
+                {
+                    "name": "水",
+                    "count": 5,
+                    "rapid": 50
+                }
+            ],
+            "output": [
+                {
+                    "name": "硫酸",
+                    "count": 5,
+                    "rapid": 50
+                }
+            ],
+            "name": "硫酸"
+        },
+        {
+            "input": [
+                {
+                    "name": "黑火药",
+                    "count": 2,
+                    "rapid": 20
+                },
+                {
+                    "name": "重油残渣",
+                    "count": 1,
+                    "rapid": 10
+                }
+            ],
+            "output": [
+                {
+                    "name": "无烟火药",
+                    "count": 2,
+                    "rapid": 20
+                }
+            ],
+            "name": "无烟火药"
+        },
+        {
+            "input": [
+                {
+                    "name": "燃料",
+                    "count": 6,
+                    "rapid": 225
+                },
+                {
+                    "name": "压缩煤",
+                    "count": 4,
+                    "rapid": 15
+                }
+            ],
+            "output": [
+                {
+                    "name": "涡轮燃油",
+                    "count": 5,
+                    "rapid": 1875
+                }
+            ],
+            "name": "涡轮燃油"
+        },
+        {
+            "input": [
+                {
+                    "name": "石灰石",
+                    "count": 6,
+                    "rapid": 120
+                },
+                {
+                    "name": "水",
+                    "count": 5,
+                    "rapid": 100
+                }
+            ],
+            "output": [
+                {
+                    "name": "混凝土",
+                    "count": 4,
+                    "rapid": 80
+                }
+            ],
+            "name": "替代: 塑性混凝土"
+        },
+        {
+            "input": [
+                {
+                    "name": "重油残渣",
+                    "count": 5,
+                    "rapid": 375
+                },
+                {
+                    "name": "压缩煤",
+                    "count": 4,
+                    "rapid": 30
+                }
+            ],
+            "output": [
+                {
+                    "name": "涡轮燃油",
+                    "count": 4,
+                    "rapid": 30
+                }
+            ],
+            "name": "替代：重质涡轮燃油"
+        },
+        {
+            "input": [
+                {
+                    "name": "铜锭",
+                    "count": 3,
+                    "rapid": 225
+                },
+                {
+                    "name": "水",
+                    "count": 3,
+                    "rapid": 225
+                }
+            ],
+            "output": [
+                {
+                    "name": "铜板",
+                    "count": 3,
+                    "rapid": 225
+                }
+            ],
+            "name": "替代：热压铜板"
+        },
+        {
+            "input": [
+                {
+                    "name": "塑料",
+                    "count": 6,
+                    "rapid": 30
+                },
+                {
+                    "name": "燃料",
+                    "count": 6,
+                    "rapid": 30
+                }
+            ],
+            "output": [
+                {
+                    "name": "橡胶",
+                    "count": 12,
+                    "rapid": 60
+                }
+            ],
+            "name": "替代: 再生橡胶"
+        },
+        {
+            "input": [
+                {
+                    "name": "粗石英",
+                    "count": 9,
+                    "rapid": 675
+                },
+                {
+                    "name": "水",
+                    "count": 5,
+                    "rapid": 375
+                }
+            ],
+            "output": [
+                {
+                    "name": "石英晶体",
+                    "count": 7,
+                    "rapid": 525
+                }
+            ],
+            "name": "替代: 纯石英晶体"
+        },
+        {
+            "input": [
+                {
+                    "name": "铁矿石",
+                    "count": 7,
+                    "rapid": 35
+                },
+                {
+                    "name": "水",
+                    "count": 4,
+                    "rapid": 20
+                }
+            ],
+            "output": [
+                {
+                    "name": "铁锭",
+                    "count": 13,
+                    "rapid": 65
+                }
+            ],
+            "name": "替代：高纯度铁锭"
+        },
+        {
+            "input": [
+                {
+                    "name": "铜矿石",
+                    "count": 6,
+                    "rapid": 15
+                },
+                {
+                    "name": "水",
+                    "count": 4,
+                    "rapid": 10
+                }
+            ],
+            "output": [
+                {
+                    "name": "铜锭",
+                    "count": 15,
+                    "rapid": 375
+                }
+            ],
+            "name": "替代：高纯度铜锭"
+        },
+        {
+            "input": [
+                {
+                    "name": "钦金矿石",
+                    "count": 2,
+                    "rapid": 24
+                },
+                {
+                    "name": "水",
+                    "count": 2,
+                    "rapid": 24
+                }
+            ],
+            "output": [
+                {
+                    "name": "钦金锭",
+                    "count": 1,
+                    "rapid": 12
+                }
+            ],
+            "name": "替代：高纯度钦金锭"
+        },
+        {
+            "input": [
+                {
+                    "name": "原油",
+                    "count": 6,
+                    "rapid": 60
+                }
+            ],
+            "output": [
+                {
+                    "name": "聚合树脂",
+                    "count": 13,
+                    "rapid": 130
+                },
+                {
+                    "name": "重油残渣",
+                    "count": 2,
+                    "rapid": 20
+                }
+            ],
+            "name": "替代：聚合树脂"
+        },
+        {
+            "input": [
+                {
+                    "name": "原油",
+                    "count": 3,
+                    "rapid": 30
+                }
+            ],
+            "output": [
+                {
+                    "name": "重油残渣",
+                    "count": 4,
+                    "rapid": 40
+                },
+                {
+                    "name": "聚合树脂",
+                    "count": 2,
+                    "rapid": 20
+                }
+            ],
+            "name": "替代：重油残渣"
+        },
+        {
+            "input": [
+                {
+                    "name": "氧化铝溶液",
+                    "count": 12,
+                    "rapid": 180
+                },
+                {
+                    "name": "油焦",
+                    "count": 4,
+                    "rapid": 60
+                }
+            ],
+            "output": [
+                {
+                    "name": "碎铝渣",
+                    "count": 20,
+                    "rapid": 300
+                },
+                {
+                    "name": "水",
+                    "count": 7,
+                    "rapid": 105
+                }
+            ],
+            "name": "替代：电解制铝"
+        },
+        {
+            "input": [
+                {
+                    "name": "重油残渣",
+                    "count": 1,
+                    "rapid": 30
+                },
+                {
+                    "name": "桶装水",
+                    "count": 2,
+                    "rapid": 60
+                }
+            ],
+            "output": [
+                {
+                    "name": "桶装燃油",
+                    "count": 2,
+                    "rapid": 60
+                }
+            ],
+            "name": "替代：桶装稀释燃油"
+        },
+        {
+            "input": [
+                {
+                    "name": "电线",
+                    "count": 5,
+                    "rapid": 375
+                },
+                {
+                    "name": "重油残渣",
+                    "count": 2,
+                    "rapid": 15
+                }
+            ],
+            "output": [
+                {
+                    "name": "电缆",
+                    "count": 9,
+                    "rapid": 675
+                }
+            ],
+            "name": "替代：镀层电缆"
+        },
+        {
+            "input": [
+                {
+                    "name": "铝土矿",
+                    "count": 10,
+                    "rapid": 200
+                },
+                {
+                    "name": "水",
+                    "count": 10,
+                    "rapid": 200
+                }
+            ],
+            "output": [
+                {
+                    "name": "氧化铝溶液",
+                    "count": 12,
+                    "rapid": 240
+                }
+            ],
+            "name": "替代：氧化铝匀浆"
+        },
+        {
+            "input": [
+                {
+                    "name": "粗石英",
+                    "count": 24,
+                    "rapid": 120
+                },
+                {
+                    "name": "硝酸",
+                    "count": 2,
+                    "rapid": 10
+                }
+            ],
+            "output": [
+                {
+                    "name": "石英晶体",
+                    "count": 15,
+                    "rapid": 75
+                },
+                {
+                    "name": "二氧化硅溶解液",
+                    "count": 12,
+                    "rapid": 60
+                }
+            ],
+            "name": "替代：石英净化"
+        },
+        {
+            "input": [
+                {
+                    "name": "铁矿石",
+                    "count": 5,
+                    "rapid": 50
+                },
+                {
+                    "name": "硫酸",
+                    "count": 1,
+                    "rapid": 10
+                }
+            ],
+            "output": [
+                {
+                    "name": "铁锭",
+                    "count": 10,
+                    "rapid": 100
+                }
+            ],
+            "name": "替代：滤化铁锭"
+        },
+        {
+            "input": [
+                {
+                    "name": "铜矿石",
+                    "count": 9,
+                    "rapid": 45
+                },
+                {
+                    "name": "硫酸",
+                    "count": 5,
+                    "rapid": 25
+                }
+            ],
+            "output": [
+                {
+                    "name": "铜锭",
+                    "count": 22,
+                    "rapid": 110
+                }
+            ],
+            "name": "替代：滤化铜锭"
+        },
+        {
+            "input": [
+                {
+                    "name": "钦金矿石",
+                    "count": 9,
+                    "rapid": 54
+                },
+                {
+                    "name": "硫酸",
+                    "count": 5,
+                    "rapid": 30
+                }
+            ],
+            "output": [
+                {
+                    "name": "钦金锭",
+                    "count": 6,
+                    "rapid": 36
+                }
+            ],
+            "name": "替代：滤化钦金锭"
+        },
+        {
+            "input": [
+                {
+                    "name": "橡胶",
+                    "count": 6,
+                    "rapid": 30
+                },
+                {
+                    "name": "燃料",
+                    "count": 6,
+                    "rapid": 30
+                }
+            ],
+            "output": [
+                {
+                    "name": "塑料",
+                    "count": 12,
+                    "rapid": 60
+                }
+            ],
+            "name": "替代：再生塑料"
+        },
+        {
+            "input": [
+                {
+                    "name": "聚合树脂",
+                    "count": 1,
+                    "rapid": 30
+                },
+                {
+                    "name": "水",
+                    "count": 1,
+                    "rapid": 30
+                }
+            ],
+            "output": [
+                {
+                    "name": "纤维织物",
+                    "count": 1,
+                    "rapid": 30
+                }
+            ],
+            "name": "替代: 聚酯布料"
+        }
+    ],
+    "灌装站": [
+        {
+            "input": [
+                {
+                    "name": "火箭燃料",
+                    "count": 2,
+                    "rapid": 120
+                },
+                {
+                    "name": "空瓶",
+                    "count": 1,
+                    "rapid": 60
+                }
+            ],
+            "output": [
+                {
+                    "name": "桶装火箭燃料",
+                    "count": 1,
+                    "rapid": 60
+                }
+            ],
+            "name": "桶装火箭燃料"
+        },
+        {
+            "input": [
+                {
+                    "name": "桶装火箭燃料",
+                    "count": 1,
+                    "rapid": 60
+                }
+            ],
+            "output": [
+                {
+                    "name": "火箭燃料",
+                    "count": 2,
+                    "rapid": 120
+                },
+                {
+                    "name": "空瓶",
+                    "count": 1,
+                    "rapid": 60
+                }
+            ],
+            "name": "导出火箭燃料"
+        },
+        {
+            "input": [
+                {
+                    "name": "电离燃油",
+                    "count": 4,
+                    "rapid": 80
+                },
+                {
+                    "name": "空瓶",
+                    "count": 2,
+                    "rapid": 40
+                }
+            ],
+            "output": [
+                {
+                    "name": "桶装电离燃油",
+                    "count": 2,
+                    "rapid": 40
+                }
+            ],
+            "name": "桶装电离燃油"
+        },
+        {
+            "input": [
+                {
+                    "name": "桶装电离燃油",
+                    "count": 2,
+                    "rapid": 40
+                }
+            ],
+            "output": [
+                {
+                    "name": "电离燃油",
+                    "count": 4,
+                    "rapid": 80
+                },
+                {
+                    "name": "空瓶",
+                    "count": 2,
+                    "rapid": 40
+                }
+            ],
+            "name": "导出电离燃油"
+        },
+        {
+            "input": [
+                {
+                    "name": "涡轮燃油",
+                    "count": 2,
+                    "rapid": 20
+                },
+                {
+                    "name": "空桶",
+                    "count": 2,
+                    "rapid": 20
+                }
+            ],
+            "output": [
+                {
+                    "name": "桶装涡轮燃油",
+                    "count": 2,
+                    "rapid": 20
+                }
+            ],
+            "name": "桶装涡轮燃油"
+        },
+        {
+            "input": [
+                {
+                    "name": "桶装涡轮燃油",
+                    "count": 2,
+                    "rapid": 20
+                }
+            ],
+            "output": [
+                {
+                    "name": "涡轮燃油",
+                    "count": 2,
+                    "rapid": 20
+                },
+                {
+                    "name": "空桶",
+                    "count": 2,
+                    "rapid": 20
+                }
+            ],
+            "name": "导出涡轮燃油"
+        },
+        {
+            "input": [
+                {
+                    "name": "燃料",
+                    "count": 2,
+                    "rapid": 40
+                },
+                {
+                    "name": "空桶",
+                    "count": 2,
+                    "rapid": 40
+                }
+            ],
+            "output": [
+                {
+                    "name": "桶装燃油",
+                    "count": 2,
+                    "rapid": 40
+                }
+            ],
+            "name": "桶装燃油"
+        },
+        {
+            "input": [
+                {
+                    "name": "液态生物燃料",
+                    "count": 2,
+                    "rapid": 40
+                },
+                {
+                    "name": "空桶",
+                    "count": 2,
+                    "rapid": 40
+                }
+            ],
+            "output": [
+                {
+                    "name": "桶装液态生物燃料",
+                    "count": 2,
+                    "rapid": 40
+                }
+            ],
+            "name": "桶装液态生物燃料"
+        },
+        {
+            "input": [
+                {
+                    "name": "原油",
+                    "count": 2,
+                    "rapid": 30
+                },
+                {
+                    "name": "空桶",
+                    "count": 2,
+                    "rapid": 30
+                }
+            ],
+            "output": [
+                {
+                    "name": "桶装原油",
+                    "count": 2,
+                    "rapid": 30
+                }
+            ],
+            "name": "桶装原油"
+        },
+        {
+            "input": [
+                {
+                    "name": "重油残渣",
+                    "count": 2,
+                    "rapid": 30
+                },
+                {
+                    "name": "空桶",
+                    "count": 2,
+                    "rapid": 30
+                }
+            ],
+            "output": [
+                {
+                    "name": "桶装重油残渣",
+                    "count": 2,
+                    "rapid": 30
+                }
+            ],
+            "name": "桶装重油残渣"
+        },
+        {
+            "input": [
+                {
+                    "name": "水",
+                    "count": 2,
+                    "rapid": 60
+                },
+                {
+                    "name": "空桶",
+                    "count": 2,
+                    "rapid": 60
+                }
+            ],
+            "output": [
+                {
+                    "name": "桶装水",
+                    "count": 2,
+                    "rapid": 60
+                }
+            ],
+            "name": "桶装水"
+        },
+        {
+            "input": [
+                {
+                    "name": "桶装液态生物燃料",
+                    "count": 2,
+                    "rapid": 60
+                }
+            ],
+            "output": [
+                {
+                    "name": "液态生物燃料",
+                    "count": 2,
+                    "rapid": 60
+                },
+                {
+                    "name": "空桶",
+                    "count": 2,
+                    "rapid": 60
+                }
+            ],
+            "name": "导出液态生物燃料"
+        },
+        {
+            "input": [
+                {
+                    "name": "桶装燃油",
+                    "count": 2,
+                    "rapid": 60
+                }
+            ],
+            "output": [
+                {
+                    "name": "燃料",
+                    "count": 2,
+                    "rapid": 60
+                },
+                {
+                    "name": "空桶",
+                    "count": 2,
+                    "rapid": 60
+                }
+            ],
+            "name": "导出燃油"
+        },
+        {
+            "input": [
+                {
+                    "name": "桶装原油",
+                    "count": 2,
+                    "rapid": 60
+                }
+            ],
+            "output": [
+                {
+                    "name": "原油",
+                    "count": 2,
+                    "rapid": 60
+                },
+                {
+                    "name": "空桶",
+                    "count": 2,
+                    "rapid": 60
+                }
+            ],
+            "name": "导出原油"
+        },
+        {
+            "input": [
+                {
+                    "name": "桶装重油残渣",
+                    "count": 2,
+                    "rapid": 20
+                }
+            ],
+            "output": [
+                {
+                    "name": "重油残渣",
+                    "count": 2,
+                    "rapid": 20
+                },
+                {
+                    "name": "空桶",
+                    "count": 2,
+                    "rapid": 20
+                }
+            ],
+            "name": "导出重油残渣"
+        },
+        {
+            "input": [
+                {
+                    "name": "桶装水",
+                    "count": 2,
+                    "rapid": 120
+                }
+            ],
+            "output": [
+                {
+                    "name": "水",
+                    "count": 2,
+                    "rapid": 120
+                },
+                {
+                    "name": "空桶",
+                    "count": 2,
+                    "rapid": 120
+                }
+            ],
+            "name": "导出水"
+        },
+        {
+            "input": [
+                {
+                    "name": "氧化铝溶液",
+                    "count": 2,
+                    "rapid": 120
+                },
+                {
+                    "name": "空桶",
+                    "count": 2,
+                    "rapid": 120
+                }
+            ],
+            "output": [
+                {
+                    "name": "桶装氧化铝溶液",
+                    "count": 2,
+                    "rapid": 120
+                }
+            ],
+            "name": "桶装氧化铝溶液"
+        },
+        {
+            "input": [
+                {
+                    "name": "桶装氧化铝溶液",
+                    "count": 2,
+                    "rapid": 120
+                }
+            ],
+            "output": [
+                {
+                    "name": "氧化铝溶液",
+                    "count": 2,
+                    "rapid": 120
+                },
+                {
+                    "name": "空桶",
+                    "count": 2,
+                    "rapid": 120
+                }
+            ],
+            "name": "导出氧化铝溶液"
+        },
+        {
+            "input": [
+                {
+                    "name": "硝酸",
+                    "count": 1,
+                    "rapid": 30
+                },
+                {
+                    "name": "空瓶",
+                    "count": 1,
+                    "rapid": 30
+                }
+            ],
+            "output": [
+                {
+                    "name": "桶装硝酸",
+                    "count": 1,
+                    "rapid": 30
+                }
+            ],
+            "name": "桶装硝酸"
+        },
+        {
+            "input": [
+                {
+                    "name": "桶装硝酸",
+                    "count": 1,
+                    "rapid": 20
+                }
+            ],
+            "output": [
+                {
+                    "name": "硝酸",
+                    "count": 1,
+                    "rapid": 20
+                },
+                {
+                    "name": "空瓶",
+                    "count": 1,
+                    "rapid": 20
+                }
+            ],
+            "name": "导出硝酸"
+        },
+        {
+            "input": [
+                {
+                    "name": "硫酸",
+                    "count": 2,
+                    "rapid": 40
+                },
+                {
+                    "name": "空桶",
+                    "count": 2,
+                    "rapid": 40
+                }
+            ],
+            "output": [
+                {
+                    "name": "桶装硫酸",
+                    "count": 2,
+                    "rapid": 40
+                }
+            ],
+            "name": "桶装硫酸"
+        },
+        {
+            "input": [
+                {
+                    "name": "桶装硫酸",
+                    "count": 1,
+                    "rapid": 60
+                }
+            ],
+            "output": [
+                {
+                    "name": "硫酸",
+                    "count": 1,
+                    "rapid": 60
+                },
+                {
+                    "name": "空桶",
+                    "count": 1,
+                    "rapid": 60
+                }
+            ],
+            "name": "导出硫酸"
+        },
+        {
+            "input": [
+                {
+                    "name": "氮气",
+                    "count": 4,
+                    "rapid": 240
+                },
+                {
+                    "name": "空瓶",
+                    "count": 1,
+                    "rapid": 60
+                }
+            ],
+            "output": [
+                {
+                    "name": "瓶装氮气",
+                    "count": 1,
+                    "rapid": 60
+                }
+            ],
+            "name": "瓶装氮气"
+        },
+        {
+            "input": [
+                {
+                    "name": "瓶装氮气",
+                    "count": 1,
+                    "rapid": 60
+                }
+            ],
+            "output": [
+                {
+                    "name": "氮气",
+                    "count": 4,
+                    "rapid": 240
+                },
+                {
+                    "name": "空瓶",
+                    "count": 1,
+                    "rapid": 60
+                }
+            ],
+            "name": "导出氮气"
+        }
+    ],
+    "混料站": [
+        {
+            "input": [
+                {
+                    "name": "涡轮燃油",
+                    "count": 6,
+                    "rapid": 60
+                },
+                {
+                    "name": "硝酸",
+                    "count": 1,
+                    "rapid": 10
+                }
+            ],
+            "output": [
+                {
+                    "name": "火箭燃料",
+                    "count": 10,
+                    "rapid": 100
+                },
+                {
+                    "name": "压缩煤",
+                    "count": 1,
+                    "rapid": 10
+                }
+            ],
+            "name": "火箭燃料"
+        },
+        {
+            "input": [
+                {
+                    "name": "组装编导系统",
+                    "count": 1,
+                    "rapid": 5
+                },
+                {
+                    "name": "F金三角",
+                    "count": 80,
+                    "rapid": 40
+                },
+                {
+                    "name": "水",
+                    "count": 20,
+                    "rapid": 10
+                }
+            ],
+            "output": [
+                {
+                    "name": "生化塑造器",
+                    "count": 4,
+                    "rapid": 2
+                }
+            ],
+            "name": "生化塑造器"
+        },
+        {
+            "input": [
+                {
+                    "name": "氮气",
+                    "count": 12,
+                    "rapid": 120
+                },
+                {
+                    "name": "水",
+                    "count": 3,
+                    "rapid": 30
+                },
+                {
+                    "name": "铁板",
+                    "count": 1,
+                    "rapid": 10
+                }
+            ],
+            "output": [
+                {
+                    "name": "硝酸",
+                    "count": 3,
+                    "rapid": 30
+                }
+            ],
+            "name": "硝酸"
+        },
+        {
+            "input": [
+                {
+                    "name": "铀废料",
+                    "count": 15,
+                    "rapid": 375
+                },
+                {
+                    "name": "二氧化硅",
+                    "count": 10,
+                    "rapid": 25
+                },
+                {
+                    "name": "硝酸",
+                    "count": 6,
+                    "rapid": 15
+                },
+                {
+                    "name": "硫酸",
+                    "count": 6,
+                    "rapid": 15
+                }
+            ],
+            "output": [
+                {
+                    "name": "非裂变贫铀",
+                    "count": 20,
+                    "rapid": 50
+                },
+                {
+                    "name": "水",
+                    "count": 6,
+                    "rapid": 15
+                }
+            ],
+            "name": "非裂变贫铀"
+        },
+        {
+            "input": [
+                {
+                    "name": "铀",
+                    "count": 10,
+                    "rapid": 50
+                },
+                {
+                    "name": "混凝土",
+                    "count": 3,
+                    "rapid": 15
+                },
+                {
+                    "name": "硫酸",
+                    "count": 8,
+                    "rapid": 40
+                }
+            ],
+            "output": [
+                {
+                    "name": "封装铀棒",
+                    "count": 5,
+                    "rapid": 25
+                },
+                {
+                    "name": "硫酸",
+                    "count": 2,
+                    "rapid": 10
+                }
+            ],
+            "name": "封装铀棒"
+        },
+        {
+            "input": [
+                {
+                    "name": "散热器",
+                    "count": 2,
+                    "rapid": 12
+                },
+                {
+                    "name": "橡胶",
+                    "count": 2,
+                    "rapid": 12
+                },
+                {
+                    "name": "水",
+                    "count": 5,
+                    "rapid": 30
+                },
+                {
+                    "name": "氮气",
+                    "count": 25,
+                    "rapid": 150
+                }
+            ],
+            "output": [
+                {
+                    "name": "冷却系统",
+                    "count": 1,
+                    "rapid": 6
+                }
+            ],
+            "name": "冷却系统"
+        },
+        {
+            "input": [
+                {
+                    "name": "硫酸",
+                    "count": 3,
+                    "rapid": 60
+                },
+                {
+                    "name": "氧化铝溶液",
+                    "count": 2,
+                    "rapid": 40
+                },
+                {
+                    "name": "铝制外壳",
+                    "count": 1,
+                    "rapid": 20
+                }
+            ],
+            "output": [
+                {
+                    "name": "电池",
+                    "count": 1,
+                    "rapid": 20
+                },
+                {
+                    "name": "水",
+                    "count": 2,
+                    "rapid": 40
+                }
+            ],
+            "name": "电池"
+        },
+        {
+            "input": [
+                {
+                    "name": "重型模块化框架",
+                    "count": 1,
+                    "rapid": 15
+                },
+                {
+                    "name": "铝制外壳",
+                    "count": 50,
+                    "rapid": 75
+                },
+                {
+                    "name": "氮气",
+                    "count": 25,
+                    "rapid": 375
+                }
+            ],
+            "output": [
+                {
+                    "name": "焊接模块化框架",
+                    "count": 1,
+                    "rapid": 15
+                }
+            ],
+            "name": "焊接模块化框架"
+        },
+        {
+            "input": [
+                {
+                    "name": "步枪弹药",
+                    "count": 25,
+                    "rapid": 125
+                },
+                {
+                    "name": "铝制外壳",
+                    "count": 3,
+                    "rapid": 15
+                },
+                {
+                    "name": "涡轮燃油",
+                    "count": 3,
+                    "rapid": 15
+                }
+            ],
+            "output": [
+                {
+                    "name": "涡轮步枪弹",
+                    "count": 50,
+                    "rapid": 250
+                }
+            ],
+            "name": "涡轮步枪弹"
+        },
+        {
+            "input": [
+                {
+                    "name": "燃料",
+                    "count": 4,
+                    "rapid": 100
+                },
+                {
+                    "name": "氮气",
+                    "count": 3,
+                    "rapid": 75
+                },
+                {
+                    "name": "硫磺",
+                    "count": 4,
+                    "rapid": 100
+                },
+                {
+                    "name": "煤",
+                    "count": 2,
+                    "rapid": 50
+                }
+            ],
+            "output": [
+                {
+                    "name": "火箭燃料",
+                    "count": 6,
+                    "rapid": 150
+                },
+                {
+                    "name": "压缩煤",
+                    "count": 1,
+                    "rapid": 25
+                }
+            ],
+            "name": "替代：硝基火箭燃料"
+        },
+        {
+            "input": [
+                {
+                    "name": "燃料",
+                    "count": 2,
+                    "rapid": 15
+                },
+                {
+                    "name": "重油残渣",
+                    "count": 4,
+                    "rapid": 30
+                },
+                {
+                    "name": "硫磺",
+                    "count": 3,
+                    "rapid": 225
+                },
+                {
+                    "name": "油焦",
+                    "count": 3,
+                    "rapid": 225
+                }
+            ],
+            "output": [
+                {
+                    "name": "涡轮燃油",
+                    "count": 6,
+                    "rapid": 45
+                }
+            ],
+            "name": "替代：混合涡轮燃油"
+        },
+        {
+            "input": [
+                {
+                    "name": "铝土矿",
+                    "count": 15,
+                    "rapid": 150
+                },
+                {
+                    "name": "煤",
+                    "count": 10,
+                    "rapid": 100
+                },
+                {
+                    "name": "硫酸",
+                    "count": 5,
+                    "rapid": 50
+                },
+                {
+                    "name": "水",
+                    "count": 6,
+                    "rapid": 60
+                }
+            ],
+            "output": [
+                {
+                    "name": "碎铝渣",
+                    "count": 30,
+                    "rapid": 300
+                },
+                {
+                    "name": "水",
+                    "count": 5,
+                    "rapid": 50
+                }
+            ],
+            "name": "替代: 速成型碎铝渣"
+        },
+        {
+            "input": [
+                {
+                    "name": "重型模块化框架",
+                    "count": 1,
+                    "rapid": 3
+                },
+                {
+                    "name": "铝锭",
+                    "count": 50,
+                    "rapid": 150
+                },
+                {
+                    "name": "硝酸",
+                    "count": 8,
+                    "rapid": 24
+                },
+                {
+                    "name": "燃料",
+                    "count": 10,
+                    "rapid": 30
+                }
+            ],
+            "output": [
+                {
+                    "name": "焊接模块化框架",
+                    "count": 1,
+                    "rapid": 3
+                }
+            ],
+            "name": "替代: 热熔框架"
+        },
+        {
+            "input": [
+                {
+                    "name": "铀",
+                    "count": 5,
+                    "rapid": 25
+                },
+                {
+                    "name": "铀废料",
+                    "count": 5,
+                    "rapid": 25
+                },
+                {
+                    "name": "硝酸",
+                    "count": 3,
+                    "rapid": 15
+                },
+                {
+                    "name": "硫酸",
+                    "count": 5,
+                    "rapid": 25
+                }
+            ],
+            "output": [
+                {
+                    "name": "非裂变贫铀",
+                    "count": 20,
+                    "rapid": 100
+                },
+                {
+                    "name": "水",
+                    "count": 8,
+                    "rapid": 40
+                }
+            ],
+            "name": "替代：富铀"
+        },
+        {
+            "input": [
+                {
+                    "name": "重油残渣",
+                    "count": 5,
+                    "rapid": 50
+                },
+                {
+                    "name": "水",
+                    "count": 10,
+                    "rapid": 100
+                }
+            ],
+            "output": [
+                {
+                    "name": "燃料",
+                    "count": 10,
+                    "rapid": 100
+                }
+            ],
+            "name": "替代：稀释燃油"
+        },
+        {
+            "input": [
+                {
+                    "name": "散热器",
+                    "count": 4,
+                    "rapid": 10
+                },
+                {
+                    "name": "马达",
+                    "count": 1,
+                    "rapid": 25
+                },
+                {
+                    "name": "氮气",
+                    "count": 24,
+                    "rapid": 60
+                }
+            ],
+            "output": [
+                {
+                    "name": "冷却系统",
+                    "count": 2,
+                    "rapid": 5
+                }
+            ],
+            "name": "替代: 冷却装置"
+        },
+        {
+            "input": [
+                {
+                    "name": "二氧化硅溶解液",
+                    "count": 12,
+                    "rapid": 120
+                },
+                {
+                    "name": "石灰石",
+                    "count": 5,
+                    "rapid": 50
+                },
+                {
+                    "name": "水",
+                    "count": 10,
+                    "rapid": 100
+                }
+            ],
+            "output": [
+                {
+                    "name": "二氧化硅",
+                    "count": 27,
+                    "rapid": 270
+                },
+                {
+                    "name": "水",
+                    "count": 8,
+                    "rapid": 80
+                }
+            ],
+            "name": "替代：提纯二氧化硅"
+        }
+    ],
+    "粒子加速站": [
+        {
+            "input": [
+                {
+                    "name": "钻石",
+                    "count": 1,
+                    "rapid": 30
+                },
+                {
+                    "name": "暗物质残渣",
+                    "count": 5,
+                    "rapid": 150
+                }
+            ],
+            "output": [
+                {
+                    "name": "暗物质晶体",
+                    "count": 1,
+                    "rapid": 30
+                }
+            ],
+            "name": "暗物质晶体"
+        },
+        {
+            "input": [
+                {
+                    "name": "煤",
+                    "count": 20,
+                    "rapid": 600
+                }
+            ],
+            "output": [
+                {
+                    "name": "钻石",
+                    "count": 1,
+                    "rapid": 30
+                }
+            ],
+            "name": "钻石"
+        },
+        {
+            "input": [
+                {
+                    "name": "非裂变贫铀",
+                    "count": 100,
+                    "rapid": 100
+                },
+                {
+                    "name": "铀废料",
+                    "count": 25,
+                    "rapid": 25
+                }
+            ],
+            "output": [
+                {
+                    "name": "钚丸",
+                    "count": 30,
+                    "rapid": 30
+                }
+            ],
+            "name": "钚丸"
+        },
+        {
+            "input": [
+                {
+                    "name": "铜粉",
+                    "count": 200,
+                    "rapid": 100
+                },
+                {
+                    "name": "封压方块",
+                    "count": 1,
+                    "rapid": 5
+                }
+            ],
+            "output": [
+                {
+                    "name": "核意面",
+                    "count": 1,
+                    "rapid": 5
+                }
+            ],
+            "name": "核意面"
+        },
+        {
+            "input": [
+                {
+                    "name": "钚废料",
+                    "count": 1,
+                    "rapid": 10
+                },
+                {
+                    "name": "奇点电池",
+                    "count": 1,
+                    "rapid": 10
+                },
+                {
+                    "name": "暗物质残渣",
+                    "count": 20,
+                    "rapid": 200
+                }
+            ],
+            "output": [
+                {
+                    "name": "镄",
+                    "count": 1,
+                    "rapid": 10
+                }
+            ],
+            "name": "镄"
+        },
+        {
+            "input": [
+                {
+                    "name": "煤",
+                    "count": 30,
+                    "rapid": 600
+                },
+                {
+                    "name": "桶装涡轮燃油",
+                    "count": 2,
+                    "rapid": 40
+                }
+            ],
+            "output": [
+                {
+                    "name": "钻石",
+                    "count": 3,
+                    "rapid": 60
+                }
+            ],
+            "name": "替代：涡轮钻石"
+        },
+        {
+            "input": [
+                {
+                    "name": "油焦",
+                    "count": 24,
+                    "rapid": 720
+                }
+            ],
+            "output": [
+                {
+                    "name": "钻石",
+                    "count": 1,
+                    "rapid": 30
+                }
+            ],
+            "name": "替代：石油钻石"
+        },
+        {
+            "input": [
+                {
+                    "name": "原油",
+                    "count": 10,
+                    "rapid": 200
+                }
+            ],
+            "output": [
+                {
+                    "name": "钻石",
+                    "count": 2,
+                    "rapid": 40
+                }
+            ],
+            "name": "替代：油基钻石"
+        },
+        {
+            "input": [
+                {
+                    "name": "煤",
+                    "count": 12,
+                    "rapid": 240
+                },
+                {
+                    "name": "石灰石",
+                    "count": 24,
+                    "rapid": 480
+                }
+            ],
+            "output": [
+                {
+                    "name": "钻石",
+                    "count": 1,
+                    "rapid": 20
+                }
+            ],
+            "name": "替代：雾状钻石"
+        },
+        {
+            "input": [
+                {
+                    "name": "时间水晶",
+                    "count": 1,
+                    "rapid": 30
+                },
+                {
+                    "name": "暗物质残渣",
+                    "count": 5,
+                    "rapid": 150
+                }
+            ],
+            "output": [
+                {
+                    "name": "暗物质晶体",
+                    "count": 2,
+                    "rapid": 60
+                }
+            ],
+            "name": "替代：暗物质捕获器"
+        },
+        {
+            "input": [
+                {
+                    "name": "暗物质残渣",
+                    "count": 10,
+                    "rapid": 200
+                }
+            ],
+            "output": [
+                {
+                    "name": "暗物质晶体",
+                    "count": 1,
+                    "rapid": 20
+                }
+            ],
+            "name": "替代：晶体化暗物质"
+        },
+        {
+            "input": [
+                {
+                    "name": "非裂变贫铀",
+                    "count": 150,
+                    "rapid": 75
+                },
+                {
+                    "name": "铝制外壳",
+                    "count": 20,
+                    "rapid": 10
+                }
+            ],
+            "output": [
+                {
+                    "name": "封装钚棒",
+                    "count": 20,
+                    "rapid": 10
+                }
+            ],
+            "name": "替代：速成型钚棒"
+        }
+    ],
+    "量子编码站": [
+        {
+            "input": [
+                {
+                    "name": "暗物质晶体",
+                    "count": 6,
+                    "rapid": 30
+                },
+                {
+                    "name": "晶体振荡器",
+                    "count": 1,
+                    "rapid": 5
+                },
+                {
+                    "name": "复合铝板",
+                    "count": 9,
+                    "rapid": 45
+                },
+                {
+                    "name": "激发态光子物质",
+                    "count": 25,
+                    "rapid": 125
+                }
+            ],
+            "output": [
+                {
+                    "name": "叠加振荡器",
+                    "count": 1,
+                    "rapid": 5
+                },
+                {
+                    "name": "暗物质残渣",
+                    "count": 25,
+                    "rapid": 125
+                }
+            ],
+            "name": "叠加振荡器"
+        },
+        {
+            "input": [
+                {
+                    "name": "时间水晶",
+                    "count": 5,
+                    "rapid": 15
+                },
+                {
+                    "name": "超级计算机",
+                    "count": 1,
+                    "rapid": 3
+                },
+                {
+                    "name": "F金三角",
+                    "count": 15,
+                    "rapid": 45
+                },
+                {
+                    "name": "激发态光子物质",
+                    "count": 25,
+                    "rapid": 75
+                }
+            ],
+            "output": [
+                {
+                    "name": "神经量子处理器",
+                    "count": 1,
+                    "rapid": 3
+                },
+                {
+                    "name": "暗物质残渣",
+                    "count": 25,
+                    "rapid": 75
+                }
+            ],
+            "name": "神经量子处理器"
+        },
+        {
+            "input": [
+                {
+                    "name": "磁场发生器",
+                    "count": 1,
+                    "rapid": 4
+                },
+                {
+                    "name": "神经量子处理器",
+                    "count": 1,
+                    "rapid": 4
+                },
+                {
+                    "name": "叠加振荡器",
+                    "count": 1,
+                    "rapid": 4
+                },
+                {
+                    "name": "激发态光子物质",
+                    "count": 25,
+                    "rapid": 100
+                }
+            ],
+            "output": [
+                {
+                    "name": "AI拓展伺服器",
+                    "count": 1,
+                    "rapid": 4
+                },
+                {
+                    "name": "暗物质残渣",
+                    "count": 25,
+                    "rapid": 100
+                }
+            ],
+            "name": "AI拓展伺服器"
+        },
+        {
+            "input": [
+                {
+                    "name": "镄",
+                    "count": 2,
+                    "rapid": 5
+                },
+                {
+                    "name": "电磁控制杆",
+                    "count": 2,
+                    "rapid": 5
+                },
+                {
+                    "name": "F金三角",
+                    "count": 40,
+                    "rapid": 100
+                },
+                {
+                    "name": "激发态光子物质",
+                    "count": 20,
+                    "rapid": 50
+                }
+            ],
+            "output": [
+                {
+                    "name": "镄燃料棒",
+                    "count": 1,
+                    "rapid": 25
+                },
+                {
+                    "name": "暗物质残渣",
+                    "count": 20,
+                    "rapid": 50
+                }
+            ],
+            "name": "镄燃料棒"
+        },
+        {
+            "input": [
+                {
+                    "name": "SAM物质波波动器",
+                    "count": 5,
+                    "rapid": 125
+                },
+                {
+                    "name": "能量碎片",
+                    "count": 3,
+                    "rapid": 75
+                },
+                {
+                    "name": "叠加振荡器",
+                    "count": 3,
+                    "rapid": 75
+                },
+                {
+                    "name": "激发态光子物质",
+                    "count": 24,
+                    "rapid": 60
+                }
+            ],
+            "output": [
+                {
+                    "name": "外星能量矩阵",
+                    "count": 1,
+                    "rapid": 25
+                },
+                {
+                    "name": "暗物质残渣",
+                    "count": 24,
+                    "rapid": 60
+                }
+            ],
+            "name": "外星能量矩阵"
+        },
+        {
+            "input": [
+                {
+                    "name": "时间水晶",
+                    "count": 2,
+                    "rapid": 10
+                },
+                {
+                    "name": "暗物质晶体",
+                    "count": 2,
+                    "rapid": 10
+                },
+                {
+                    "name": "石英晶体",
+                    "count": 12,
+                    "rapid": 60
+                },
+                {
+                    "name": "激发态光子物质",
+                    "count": 12,
+                    "rapid": 60
+                }
+            ],
+            "output": [
+                {
+                    "name": "能量碎片",
+                    "count": 1,
+                    "rapid": 5
+                },
+                {
+                    "name": "暗物质残渣",
+                    "count": 12,
+                    "rapid": 60
+                }
+            ],
+            "name": "合成能量碎片"
+        }
+    ],
+    "转化站": [
+        {
+            "input": [
+                {
+                    "name": "活性SAM物质",
+                    "count": 5,
+                    "rapid": 50
+                }
+            ],
+            "output": [
+                {
+                    "name": "暗物质残渣",
+                    "count": 10,
+                    "rapid": 100
+                }
+            ],
+            "name": "暗物质残渣"
+        },
+        {
+            "input": [],
+            "output": [
+                {
+                    "name": "激发态光子物质",
+                    "count": 10,
+                    "rapid": 200
+                }
+            ],
+            "name": "激发态光子物质"
+        },
+        {
+            "input": [
+                {
+                    "name": "活性SAM物质",
+                    "count": 4,
+                    "rapid": 40
+                },
+                {
+                    "name": "铁锭",
+                    "count": 24,
+                    "rapid": 240
+                }
+            ],
+            "output": [
+                {
+                    "name": "F金锭",
+                    "count": 1,
+                    "rapid": 10
+                }
+            ],
+            "name": "F金锭（铁）"
+        },
+        {
+            "input": [
+                {
+                    "name": "钻石",
+                    "count": 2,
+                    "rapid": 12
+                }
+            ],
+            "output": [
+                {
+                    "name": "时间水晶",
+                    "count": 1,
+                    "rapid": 6
+                }
+            ],
+            "name": "时间水晶"
+        },
+        {
+            "input": [
+                {
+                    "name": "活性SAM物质",
+                    "count": 2,
+                    "rapid": 60
+                },
+                {
+                    "name": "铝锭",
+                    "count": 4,
+                    "rapid": 120
+                }
+            ],
+            "output": [
+                {
+                    "name": "F金锭",
+                    "count": 1,
+                    "rapid": 30
+                }
+            ],
+            "name": "F金锭（铝）"
+        },
+        {
+            "input": [
+                {
+                    "name": "活性SAM物质",
+                    "count": 3,
+                    "rapid": 45
+                },
+                {
+                    "name": "钦金锭",
+                    "count": 4,
+                    "rapid": 60
+                }
+            ],
+            "output": [
+                {
+                    "name": "F金锭",
+                    "count": 1,
+                    "rapid": 15
+                }
+            ],
+            "name": "F金锭（钦金）"
+        },
+        {
+            "input": [
+                {
+                    "name": "活性SAM物质",
+                    "count": 1,
+                    "rapid": 10
+                },
+                {
+                    "name": "钦金矿石",
+                    "count": 15,
+                    "rapid": 150
+                }
+            ],
+            "output": [
+                {
+                    "name": "铝土矿",
+                    "count": 12,
+                    "rapid": 120
+                }
+            ],
+            "name": "铝土矿（钦金）"
+        },
+        {
+            "input": [
+                {
+                    "name": "活性SAM物质",
+                    "count": 1,
+                    "rapid": 10
+                },
+                {
+                    "name": "铜矿石",
+                    "count": 18,
+                    "rapid": 180
+                }
+            ],
+            "output": [
+                {
+                    "name": "铝土矿",
+                    "count": 12,
+                    "rapid": 120
+                }
+            ],
+            "name": "铝土矿（铜）"
+        },
+        {
+            "input": [
+                {
+                    "name": "活性SAM物质",
+                    "count": 1,
+                    "rapid": 10
+                },
+                {
+                    "name": "铜矿石",
+                    "count": 15,
+                    "rapid": 150
+                }
+            ],
+            "output": [
+                {
+                    "name": "钦金矿石",
+                    "count": 12,
+                    "rapid": 120
+                }
+            ],
+            "name": "钦金矿石（铜）"
+        },
+        {
+            "input": [
+                {
+                    "name": "活性SAM物质",
+                    "count": 1,
+                    "rapid": 10
+                },
+                {
+                    "name": "粗石英",
+                    "count": 12,
+                    "rapid": 120
+                }
+            ],
+            "output": [
+                {
+                    "name": "钦金矿石",
+                    "count": 12,
+                    "rapid": 120
+                }
+            ],
+            "name": "钦金矿石（石英）"
+        },
+        {
+            "input": [
+                {
+                    "name": "活性SAM物质",
+                    "count": 1,
+                    "rapid": 10
+                },
+                {
+                    "name": "铁矿石",
+                    "count": 18,
+                    "rapid": 180
+                }
+            ],
+            "output": [
+                {
+                    "name": "煤",
+                    "count": 12,
+                    "rapid": 120
+                }
+            ],
+            "name": "煤（铁）"
+        },
+        {
+            "input": [
+                {
+                    "name": "活性SAM物质",
+                    "count": 1,
+                    "rapid": 10
+                },
+                {
+                    "name": "石灰石",
+                    "count": 36,
+                    "rapid": 360
+                }
+            ],
+            "output": [
+                {
+                    "name": "煤",
+                    "count": 12,
+                    "rapid": 120
+                }
+            ],
+            "name": "煤（石灰石）"
+        },
+        {
+            "input": [
+                {
+                    "name": "活性SAM物质",
+                    "count": 1,
+                    "rapid": 10
+                },
+                {
+                    "name": "粗石英",
+                    "count": 10,
+                    "rapid": 100
+                }
+            ],
+            "output": [
+                {
+                    "name": "铜矿石",
+                    "count": 12,
+                    "rapid": 120
+                }
+            ],
+            "name": "铜矿石（石英）"
+        },
+        {
+            "input": [
+                {
+                    "name": "活性SAM物质",
+                    "count": 1,
+                    "rapid": 10
+                },
+                {
+                    "name": "硫磺",
+                    "count": 12,
+                    "rapid": 120
+                }
+            ],
+            "output": [
+                {
+                    "name": "铜矿石",
+                    "count": 12,
+                    "rapid": 120
+                }
+            ],
+            "name": "铜矿石（硫磺）"
+        },
+        {
+            "input": [
+                {
+                    "name": "活性SAM物质",
+                    "count": 1,
+                    "rapid": 10
+                },
+                {
+                    "name": "石灰石",
+                    "count": 24,
+                    "rapid": 240
+                }
+            ],
+            "output": [
+                {
+                    "name": "铁矿石",
+                    "count": 12,
+                    "rapid": 120
+                }
+            ],
+            "name": "铁矿石（石灰石）"
+        },
+        {
+            "input": [
+                {
+                    "name": "活性SAM物质",
+                    "count": 1,
+                    "rapid": 10
+                },
+                {
+                    "name": "硫磺",
+                    "count": 2,
+                    "rapid": 20
+                }
+            ],
+            "output": [
+                {
+                    "name": "石灰石",
+                    "count": 12,
+                    "rapid": 120
+                }
+            ],
+            "name": "石灰石（硫磺）"
+        },
+        {
+            "input": [
+                {
+                    "name": "活性SAM物质",
+                    "count": 1,
+                    "rapid": 10
+                },
+                {
+                    "name": "铝土矿",
+                    "count": 10,
+                    "rapid": 100
+                }
+            ],
+            "output": [
+                {
+                    "name": "氮气",
+                    "count": 12,
+                    "rapid": 120
+                }
+            ],
+            "name": "氮气（铝土矿）"
+        },
+        {
+            "input": [
+                {
+                    "name": "活性SAM物质",
+                    "count": 1,
+                    "rapid": 10
+                },
+                {
+                    "name": "钦金矿石",
+                    "count": 12,
+                    "rapid": 120
+                }
+            ],
+            "output": [
+                {
+                    "name": "氮气",
+                    "count": 12,
+                    "rapid": 120
+                }
+            ],
+            "name": "氮气（钦金）"
+        },
+        {
+            "input": [
+                {
+                    "name": "活性SAM物质",
+                    "count": 1,
+                    "rapid": 10
+                },
+                {
+                    "name": "铝土矿",
+                    "count": 10,
+                    "rapid": 100
+                }
+            ],
+            "output": [
+                {
+                    "name": "粗石英",
+                    "count": 12,
+                    "rapid": 120
+                }
+            ],
+            "name": "粗石英（铝土矿）"
+        },
+        {
+            "input": [
+                {
+                    "name": "活性SAM物质",
+                    "count": 1,
+                    "rapid": 10
+                },
+                {
+                    "name": "煤",
+                    "count": 24,
+                    "rapid": 240
+                }
+            ],
+            "output": [
+                {
+                    "name": "粗石英",
+                    "count": 12,
+                    "rapid": 120
+                }
+            ],
+            "name": "粗石英（煤）"
+        },
+        {
+            "input": [
+                {
+                    "name": "活性SAM物质",
+                    "count": 1,
+                    "rapid": 10
+                },
+                {
+                    "name": "煤",
+                    "count": 20,
+                    "rapid": 200
+                }
+            ],
+            "output": [
+                {
+                    "name": "硫磺",
+                    "count": 12,
+                    "rapid": 120
+                }
+            ],
+            "name": "硫磺（煤）"
+        },
+        {
+            "input": [
+                {
+                    "name": "活性SAM物质",
+                    "count": 1,
+                    "rapid": 10
+                },
+                {
+                    "name": "铁矿石",
+                    "count": 30,
+                    "rapid": 300
+                }
+            ],
+            "output": [
+                {
+                    "name": "硫磺",
+                    "count": 12,
+                    "rapid": 120
+                }
+            ],
+            "name": "硫磺（铁）"
+        },
+        {
+            "input": [
+                {
+                    "name": "活性SAM物质",
+                    "count": 1,
+                    "rapid": 10
+                },
+                {
+                    "name": "铝土矿",
+                    "count": 48,
+                    "rapid": 480
+                }
+            ],
+            "output": [
+                {
+                    "name": "铀",
+                    "count": 12,
+                    "rapid": 120
+                }
+            ],
+            "name": "铀矿石（铝土矿）"
+        },
+        {
+            "input": [
+                {
+                    "name": "桶装火箭燃料",
+                    "count": 12,
+                    "rapid": 240
+                },
+                {
+                    "name": "暗物质晶体",
+                    "count": 4,
+                    "rapid": 80
+                }
+            ],
+            "output": [
+                {
+                    "name": "电离燃油",
+                    "count": 10,
+                    "rapid": 200
+                },
+                {
+                    "name": "压缩煤",
+                    "count": 2,
+                    "rapid": 40
+                }
+            ],
+            "name": "替代：暗离子燃料"
+        },
+        {
+            "input": [
+                {
+                    "name": "煤",
+                    "count": 8,
+                    "rapid": 120
+                },
+                {
+                    "name": "石英晶体",
+                    "count": 3,
+                    "rapid": 45
+                }
+            ],
+            "output": [
+                {
+                    "name": "钻石",
+                    "count": 1,
+                    "rapid": 15
+                }
+            ],
+            "name": "替代：粉钻"
+        }
+    ],
+    "生物质燃烧器": [],
+    "煤炭发电机": [],
+    "燃油发电机": [],
+    "地热发电机": [],
+    "核电站": [
+        {
+            "input": [
+                {
+                    "name": "铀燃料棒",
+                    "count": 1,
+                    "rapid": 2
+                }
+            ],
+            "output": [
+                {
+                    "name": "铀废料",
+                    "count": 50,
+                    "rapid": 10
+                }
+            ],
+            "name": "铀废料"
+        },
+        {
+            "input": [
+                {
+                    "name": "钚燃料棒",
+                    "count": 1,
+                    "rapid": 1
+                }
+            ],
+            "output": [
+                {
+                    "name": "钚废料",
+                    "count": 10,
+                    "rapid": 1
+                }
+            ],
+            "name": "钚废料"
+        }
+    ],
+    "蓄电池": [],
+    "外星能源强化装置": [],
+    "枢纽": [],
+    "分子分析机": [],
+    "太空电梯": [],
+    "1级蓝图设计器": [],
+    "2级蓝图设计器": [],
+    "3级蓝图设计器": [],
+    "AWESOME回收器": [],
+    "AWESOME商店": [],
+    "制作台": [],
+    "装备工坊": [],
+    "个人储物盒": [],
+    "医疗储物盒": [],
+    "有害物质储物盒": [],
+    "存储集装箱": [],
+    "工业级集装箱": [],
+    "液体缓冲罐": [],
+    "工业级液体缓冲罐": [],
+    "位面存储站上传器": [],
+    "基础货架装置": [],
+    "卡车站": [],
+    "无人机平台": [],
+    "货运站台": [],
+    "液体货运站台": [],
+    "瞭望塔": [],
+    "雷达塔": []
+}

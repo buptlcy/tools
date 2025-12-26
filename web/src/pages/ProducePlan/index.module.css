@@ -1,0 +1,49 @@
+
+/* 页面外层容器：居中+留白 */
+.query-page-wrapper {
+  width: 100%;
+  min-height: 100vh;
+  padding: 24px 16px;
+  background-color: #f5f7fa;
+  box-sizing: border-box;
+}
+
+/* 核心卡片容器：美化阴影+圆角 */
+.query-page-card {
+  max-width: 1440px;
+  margin: 0 auto;
+  border-radius: 12px !important; /* 覆盖antd默认样式 */
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.04) !important;
+  background-color: #ffffff !important;
+  overflow: scroll;
+}
+
+/* 搜索区样式：层级+间距+分隔线 */
+.query-search-section {
+  padding: 12px;
+  border-bottom: 1px solid #f0f2f5;
+  background: linear-gradient(to bottom, #fafbfc 0%, #ffffff 100%);
+}
+
+/* 结果展示区样式：内边距+留白 */
+.query-result-section {
+  padding: 32px;
+  min-height: 600px; /* 保证区域高度，避免空容器塌陷 */
+  background-color: #ffffff;
+}
+
+/* 响应式适配：小屏幕缩小间距 */
+@media (max-width: 768px) {
+  .query-page-wrapper {
+    padding: 16px 8px;
+  }
+
+  .query-search-section {
+    padding: 24px 16px 16px;
+  }
+
+  .query-result-section {
+    padding: 24px 16px;
+    min-height: 400px;
+  }
+}

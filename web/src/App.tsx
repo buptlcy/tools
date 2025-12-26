@@ -8,13 +8,15 @@ const { Sider, Content } = Layout
 // 1. 你的布局框架（左侧导航+右侧空白容器）：只负责布局，不负责内容
 function AppLayout() {
     return (
-        <Layout style={{ minHeight: '100vh' }}>
-            <Sider width={200}><SiderMenu /></Sider>
-            <Content style={{ padding: 24, background: '#fff', flex: '1' }}>
-                <Outlet />
-                {' '}
-                {/* 这里是「内容占位符」，只渲染页面组件，和布局不冲突 */}
-            </Content>
+        <Layout style={{ minHeight: '100vh', height: '100%' }}>
+            <Sider width={200} style={{ height: '100%' }}><SiderMenu /></Sider>
+            <div style={{ height: '100%', overflow: 'scroll', flex: 1 }}>
+                <Content style={{ background: '#fff', flex: '1', minHeight: '100%' }}>
+                    <Outlet />
+                    {' '}
+                    {/* 这里是「内容占位符」，只渲染页面组件，和布局不冲突 */}
+                </Content>
+            </div>
         </Layout>
     )
 }

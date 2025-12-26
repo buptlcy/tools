@@ -1,0 +1,42 @@
+/* 仅替换搜索区相关样式，其他原有样式保留 */
+.search-area-container {
+  padding: 12px 16px; /* 原24px → 缩小为12px 16px */
+}
+
+.search-area-title {
+  font-size: 16px;
+  font-weight: 600;
+  color: #1f2937;
+  margin-bottom: 8px; /* 原16px → 8px */
+}
+
+.search-groups {
+  display: flex;
+  flex-direction: column;
+  gap: 8px; /* 原12px → 8px */
+  margin-bottom: 12px; /* 原16px → 12px */
+}
+
+.search-group-item {
+  padding: 4px 8px; /* 原12px → 8px 12px */
+  /* border-bottom: 1px solid #e5e7eb; */
+  /* border-radius: 6px; */
+  /* background-color: #f9fafb; */
+}
+
+.search-area-actions {
+  display: flex;
+}
+
+.search-group-item .button-mini {
+    width: 18px;
+    height: 18px;
+}
+
+.delete-wrapper {
+    width: 24px;
+}
+
+.search-area-btns {
+    margin-left: auto;
+}
