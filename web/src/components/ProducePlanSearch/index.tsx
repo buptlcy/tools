@@ -1,7 +1,10 @@
 import { MinusOutlined, PlusOutlined } from '@ant-design/icons'
 import { Button, InputNumber, message, Select, Space } from 'antd'
 import React, { useState } from 'react'
+import items from '../../utils/items'
+
 import styles from './index.module.css'
+import '../../styles/sprite-item.css'
 
 // 定义单组搜索条件的类型（和最终输出格式一致）
 interface SearchItem {
@@ -10,13 +13,42 @@ interface SearchItem {
 }
 
 // 下拉框可选选项（可根据你的业务调整）
-const ITEM_OPTIONS = [
-    { label: '选项1', value: 'item1' },
-    { label: '选项2', value: 'item2' },
-    { label: '选项3', value: 'item3' },
-]
+const ITEM_OPTIONS = items.options
 
 const RAPID_OPTIONS = [5, 10, 15, 30, 60]
+
+const optionRender: React.ComponentProps<typeof Select>['optionRender'] = (info) => {
+    return (
+        <div style={{ display: 'flex', alignItems: 'center' }}>
+            <div style={{ width: '32px', height: '32px', marginRight: '6px' }}>
+                <div
+                    className={`iconitem- icon-item-${info.label}`}
+                    style={items.getCss(info.label as string, 32)}
+                >
+                </div>
+            </div>
+            <span>{info.label}</span>
+        </div>
+    )
+}
+
+const labelRender: React.ComponentProps<typeof Select<string>>['labelRender'] = (label) => {
+    if (!label.value) {
+        return null
+    }
+    return (
+        <div style={{ display: 'flex', alignItems: 'center' }}>
+            <div style={{ width: '24px', height: '24px', marginRight: '6px' }}>
+                <div
+                    className={`iconitem- icon-item-${label.value}`}
+                    style={items.getCss(label.value as string, 24)}
+                >
+                </div>
+            </div>
+            <span>{label.value}</span>
+        </div>
+    )
+}
 
 // 搜索区组件（支持添加/删除组）
 const ProducePlanSearch: React.FC = () => {
@@ -113,10 +145,18 @@ const ProducePlanSearch: React.FC = () => {
                                 <Select
                                     placeholder="请选择项目"
                                     options={ITEM_OPTIONS}
+                                    optionRender={optionRender}
+                                    labelRender={labelRender}
                                     value={group.item}
                                     onChange={value => handleItemChange(index, value)}
-                                    style={{ width: 150 }}
+                                    style={{ width: 250 }}
                                     size="small"
+                                    showSearch={{
+                                        filterOption: (input, option) => {
+                                            return option!.label.includes(input)
+                                        },
+                                    }}
+
                                 />
                             </div>
                             <div>
@@ -126,7 +166,7 @@ const ProducePlanSearch: React.FC = () => {
                                     value={group.rapid}
                                     onChange={value => handleRapidChange(index, value as number)}
                                     min={0}
-                                    style={{ width: 75 }}
+                                    style={{ width: 60 }}
                                     size="small"
                                 />
 
