@@ -1,4 +1,5 @@
 import React from 'react'
+import ProducePlanDetail from '../../components/ProducePlanDetail'
 import ProducePlanSearch from '../../components/ProducePlanSearch'
 import { ProducePlanProvider } from '../../contexts/ProducePlanContext'
 // import SearchArea from './SearchArea';
@@ -17,7 +18,7 @@ const ProducePlan: React.FC = () => {
 
                 {/* 结果展示区：绑定美化类名 */}
                 <div className={styles['query-result-section']}>
-                    {/* 纯空容器，无任何内容 */}
+                    <ProducePlanDetail />
                 </div>
             </ProducePlanProvider>
         </div>

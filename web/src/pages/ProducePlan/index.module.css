@@ -27,7 +27,7 @@
 
 /* 结果展示区样式：内边距+留白 */
 .query-result-section {
-  padding: 32px;
+  padding: 12px;
   min-height: 600px; /* 保证区域高度，避免空容器塌陷 */
   background-color: #ffffff;
 }

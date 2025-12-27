@@ -1,0 +1,73 @@
+/* 结果容器整体样式 */
+.resultContainer {
+  width: 100%;
+  padding: 16px 0;
+  box-sizing: border-box;
+}
+
+/* 结果头部 标题+数量 */
+.resultHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 8px;
+  margin-bottom: 8px;
+}
+.resultHeader h3 {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 500;
+  color: #333;
+}
+.countText {
+  font-size: 14px;
+  color: #666;
+}
+
+/* 核心内容区 */
+.resultContent {
+  width: 100%;
+  min-height: 400px;
+  box-sizing: border-box;
+}
+
+/* 加载中居中 */
+.loadingWrapper {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* 无数据居中 */
+.emptyWrapper {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* 结果列表布局 - 流式布局，可一行多列，适配大屏 */
+.resultListWrapper {
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 12px;
+  width: 100%;
+}
+
+/* 单条结果卡片样式 */
+.resultCard {
+  width: 100%;
+  box-sizing: border-box;
+}
+.resultItem {
+  width: 100%;
+  height: 180px; /* 占位高度，你后续可改 */
+}
+
+/* ============ 新增：tab标签样式 ============ */
+.resultTabs {
+  width: 100%;
+  margin-bottom: 0;
+}

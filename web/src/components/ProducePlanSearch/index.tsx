@@ -1,16 +1,12 @@
+import type { SearchParams } from './types'
 import { MinusOutlined, PlusOutlined } from '@ant-design/icons'
 import { Button, InputNumber, message, Select, Space } from 'antd'
 import React, { useState } from 'react'
-import items from '../../utils/items'
 
+import { useProducePlanContext } from '../../contexts/ProducePlanContext'
+import items from '../../utils/items'
 import styles from './index.module.css'
 import '../../styles/sprite-item.css'
-
-// 定义单组搜索条件的类型（和最终输出格式一致）
-interface SearchItem {
-    item: string
-    rapid: number
-}
 
 // 下拉框可选选项（可根据你的业务调整）
 const ITEM_OPTIONS = items.options
@@ -52,8 +48,10 @@ const labelRender: React.ComponentProps<typeof Select<string>>['labelRender'] = 
 
 // 搜索区组件（支持添加/删除组）
 const ProducePlanSearch: React.FC = () => {
+    const producePlanContext = useProducePlanContext()
+
     // 初始化至少1组搜索条件
-    const [searchGroups, setSearchGroups] = useState<SearchItem[]>([
+    const [searchGroups, setSearchGroups] = useState<SearchParams>([
         { item: '', rapid: 0 },
     ])
 
@@ -106,7 +104,8 @@ const ProducePlanSearch: React.FC = () => {
         }
         const validData = searchGroups.filter(group => group.item)
         console.log('最终搜索数据：', validData) // 格式：{item: string, rapid: number}[]
-    // 实际项目中：调用接口/更新Context状态
+
+        producePlanContext.setSearchParams(validData)
     }
 
     // 重置所有搜索组
@@ -206,10 +205,10 @@ const ProducePlanSearch: React.FC = () => {
                 </Button>
                 <Space className={styles['search-area-btns']}>
                     <Button type="primary" onClick={handleSearch}>
-                        执行查询
+                        给爷算
                     </Button>
                     <Button onClick={handleReset}>
-                        重置条件
+                        重制
                     </Button>
                 </Space>
             </div>
