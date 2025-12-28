@@ -84,7 +84,9 @@ function getDefaultFormulaListFromSearch(searchParams: SearchParams) {
     }
 
     const topLevelFormulas = searchParams.map(({ item }) => {
-        return formulas[fix(item)]!
+        return {
+            ...formulas[fix(item)]!,
+        }
     })
 
     // console.log('top level formulas is: ', topLevelFormulas)
@@ -97,7 +99,7 @@ function getDefaultFormulaListFromSearch(searchParams: SearchParams) {
 function updateFormula(formulaName: string) {
     const topLevelFormula = formulas[formulaName]!
 
-    const defaultFormulas = recursiveGetFormula([topLevelFormula])
+    const defaultFormulas = recursiveGetFormula([{ ...topLevelFormula }])
 
     return defaultFormulas[0]
 }
@@ -123,7 +125,7 @@ function recursiveGetFormula(topLevelFormulas: CalculatedFormulaTreeNode[]) {
         const { input } = f
         const nextLevelFromulas = input.map(({ name }) => {
             const patchName = fix(name)
-            return formulas[patchName]!
+            return { ...formulas[patchName]! }
         })
         f.children = recursiveGetFormula(nextLevelFromulas)
         f.id = crypto.randomUUID()
@@ -161,12 +163,24 @@ function getOptionsByName(name: string) {
     return result
 }
 
+function getFormulaOutputName<T extends Formula = Formula>(formula: T) {
+    const { output, name } = formula
+
+    if (output.length === 0) {
+        return name
+    }
+
+    // 总是在第一位
+    return output[0]!.name
+}
+
 export default {
     options,
     getDefaultFormulaListFromSearch,
     formatTreeDisplayData,
     getOptionsByName,
     getCss,
+    getFormulaOutputName,
     updateFormula,
     unfix,
 }

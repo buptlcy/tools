@@ -17,21 +17,23 @@ function TreeDisplay() {
     }, [initFormulaList])
 
     const titleRenderer = React.useCallback((data: TreeDisplayData) => {
+        const itemName = itemUtils.getFormulaOutputName(data)
+
         return (
             <>
                 <div style={{ display: 'flex', alignItems: 'center' }}>
                     <div style={{ width: '32px', height: '32px', marginRight: '6px' }}>
                         <div
-                            className={`iconitem- icon-item-${data.name}`}
-                            style={itemUtils.getCss(data.name as string, 32)}
+                            className={`iconitem- icon-item-${itemName}`}
+                            style={itemUtils.getCss(itemName, 32)}
                         >
                         </div>
                     </div>
-                    <span>{data.name}</span>
+                    <span>{itemName}</span>
                     <Select
-                        options={itemUtils.getOptionsByName(data.name)}
+                        options={itemUtils.getOptionsByName(itemName)}
                         style={{ width: '225px', margin: '0px 6px' }}
-                        defaultValue={data.name}
+                        defaultValue={itemName}
                         size="small"
                         onChange={e => handleFormulaChange(data.id!, e)}
                     >

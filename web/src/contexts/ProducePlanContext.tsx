@@ -32,9 +32,9 @@ export const ProducePlanProvider: React.FC<React.PropsWithChildren> = ({ childre
             newTreeNode.id = treeNode.id!
             Object.assign(treeNode, newTreeNode)
 
-            setInitFormulaList({
+            setInitFormulaList([
                 ...initFormulaList,
-            })
+            ])
         }
     }, [initFormulaList])
 
