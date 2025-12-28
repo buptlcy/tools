@@ -3,9 +3,11 @@ import { Select, Tree } from 'antd'
 import React from 'react'
 
 import { useProducePlanContext } from '../../contexts/ProducePlanContext'
+import buildingUtils from '../../utils/building'
 import itemUtils from '../../utils/items'
 
 import '../../styles/sprite-item.css'
+import '../../styles/sprite-building.css'
 
 // 纯净树形组件
 function TreeDisplay() {
@@ -21,6 +23,9 @@ function TreeDisplay() {
         return (
             <>
                 <div style={{ display: 'flex', alignItems: 'center' }}>
+                    {data.rapid ?? '一些'}
+                    {' '}
+                    *
                     <div style={{ width: '32px', height: '32px', marginRight: '6px' }}>
                         <div
                             className={`iconitem- icon-item-${itemName}`}
@@ -28,13 +33,31 @@ function TreeDisplay() {
                         >
                         </div>
                     </div>
-                    <span>{itemName}</span>
+                    <span>
+
+                        {itemName}
+                    </span>
+                    <span style={{ margin: '0 6px' }}>=</span>
+
+                    {data.buildingCount ?? '一些'}
+                    {' '}
+                    *
+                    <div style={{ width: '32px', height: '32px', marginRight: '6px' }}>
+                        <div
+                            className={`iconbuilding- icon-building-${data.building}`}
+                            style={buildingUtils.getCss(data.building, 32)}
+                        >
+                        </div>
+                    </div>
+                    <span>
+                        {data.building}
+                    </span>
                     <Select
                         options={itemUtils.getOptionsByName(itemName)}
                         style={{ width: '225px', margin: '0px 6px' }}
                         defaultValue={itemName}
                         size="small"
-                        onChange={e => handleFormulaChange(data.id!, e)}
+                        onChange={e => handleFormulaChange(data.id!, data.rapid ?? 0, e)}
                     >
                     </Select>
                 </div>
@@ -60,6 +83,7 @@ function TreeDisplay() {
                 defaultExpandAll={true} // 是否默认展开所有，false=手动展开
                 expandedKeys={expandKeys}
             />
+            {JSON.stringify(formattedTreeData)}
         </div>
     )
 }

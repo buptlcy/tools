@@ -19,6 +19,8 @@ export interface Formula {
 }
 
 export type CalculatedFormulaTreeNode = Formula & {
+    rapid?: number
+    buildingCount?: number
     children?: CalculatedFormulaTreeNode[]
     id?: string
 }

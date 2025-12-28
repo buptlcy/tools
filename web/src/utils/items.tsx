@@ -85,9 +85,14 @@ function getDefaultFormulaListFromSearch(searchParams: SearchParams) {
         return []
     }
 
-    const topLevelFormulas = searchParams.map(({ item }) => {
+    const topLevelFormulas = searchParams.map(({ item, rapid }) => {
+        const f = formulas[fix(item)]!
+        const buildingCount = rapid / (f.output[0]?.rapid ?? 1)
+
         return {
-            ...formulas[fix(item)]!,
+            ...f,
+            buildingCount,
+            rapid,
         }
     })
 
@@ -98,10 +103,12 @@ function getDefaultFormulaListFromSearch(searchParams: SearchParams) {
     return defaultFormulas
 }
 
-function updateFormula(formulaName: string) {
+function updateFormula(formulaName: string, rapid: number) {
     const topLevelFormula = formulas[formulaName]!
 
-    const defaultFormulas = recursiveGetFormula([{ ...topLevelFormula }])
+    const buildingCount = rapid / (topLevelFormula.output[0]?.rapid ?? 1)
+
+    const defaultFormulas = recursiveGetFormula([{ ...topLevelFormula, rapid, buildingCount }])
 
     return defaultFormulas[0]
 }
@@ -124,10 +131,18 @@ function unfix(name: string) {
 
 function recursiveGetFormula(topLevelFormulas: CalculatedFormulaTreeNode[]) {
     return topLevelFormulas.map((f) => {
-        const { input } = f
+        const { input, output, rapid = 0 } = f
         const nextLevelFromulas = input.map(({ name }) => {
             const patchName = fix(name)
-            return { ...formulas[patchName]! }
+
+            const nextLevelFormula = formulas[patchName]!
+            const nextLevelOutput = nextLevelFormula.output[0]
+            const thisLevelOutput = output[0]
+
+            const nextLevelRapid = (nextLevelOutput?.rapid ?? 0) * rapid / (thisLevelOutput?.rapid ?? 1)
+            const nextLevelbuldingCount = nextLevelRapid / (nextLevelOutput?.rapid ?? 1)
+
+            return { ...nextLevelFormula, rapid: nextLevelRapid, buildingCount: nextLevelbuldingCount }
         })
         f.children = recursiveGetFormula(nextLevelFromulas)
         f.id = crypto.randomUUID()

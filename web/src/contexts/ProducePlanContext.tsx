@@ -7,7 +7,7 @@ interface ProducePlanContextType {
     searchParams: SearchParams
     setSearchParams: React.Dispatch<SearchParams>
     initFormulaList: CalculatedFormulaTreeNode[]
-    handleFormulaChange: (id: string, formulaName: string) => void
+    handleFormulaChange: (id: string, rapid: number, formulaName: string) => void
 }
 
 // 创建Context，默认值为空对象
@@ -23,10 +23,10 @@ export const ProducePlanProvider: React.FC<React.PropsWithChildren> = ({ childre
     const [searchParams, setSearchParams] = React.useState<SearchParams>([])
     const [initFormulaList, setInitFormulaList] = React.useState<CalculatedFormulaTreeNode[]>([])
 
-    const handleFormulaChange = React.useCallback((id: string, formulaName: string) => {
+    const handleFormulaChange = React.useCallback((id: string, rapid: number, formulaName: string) => {
         const treeNode = findTreeNodeById(initFormulaList, id)
 
-        const newTreeNode = itemUtils.updateFormula(formulaName)
+        const newTreeNode = itemUtils.updateFormula(formulaName, rapid)
 
         if (newTreeNode && treeNode) {
             newTreeNode.id = treeNode.id!
@@ -70,7 +70,6 @@ function findTreeNodeById(
     }
 
     let i = 0
-    console.log(treeNodes)
 
     while (i < treeNodes.length) {
         const { children = [] } = treeNodes[i]!
