@@ -66,7 +66,9 @@ function formatFormulas() {
 // }
 
 function getCss(name: string, targetSize: number) {
-    const name1 = unfix(name) as keyof typeof itemsPosition
+    const formula = getFormulaByFormulaName(name)
+
+    const name1 = (formula ? getFormulaOutputName(formula) : name) as keyof typeof itemsPosition
 
     const originSize = itemsPosition[name1].width
     const ratio = targetSize / originSize
@@ -172,6 +174,10 @@ function getFormulaOutputName<T extends Formula = Formula>(formula: T) {
 
     // 总是在第一位
     return output[0]!.name
+}
+
+function getFormulaByFormulaName(name: string) {
+    return formulas[name]
 }
 
 export default {

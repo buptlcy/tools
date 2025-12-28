@@ -92,6 +92,10 @@ const ProducePlanSearch: React.FC = () => {
                 message.error(`第${i + 1}组查询条件的【物品】不能为空，请选择！`)
                 return false // 校验失败
             }
+            else if (searchGroups[i]!.rapid === 0) {
+                message.error(`第${i + 1}组查询条件的【速率】不能为空，请选择！`)
+                return false // 校验失败
+            }
         }
         return true // 校验通过
     }

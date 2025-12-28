@@ -12,7 +12,6 @@ function TreeDisplay() {
     const { initFormulaList, handleFormulaChange } = useProducePlanContext()
 
     const formattedTreeData = React.useMemo(() => {
-        console.log(5555, initFormulaList)
         return itemUtils.formatTreeDisplayData(initFormulaList)
     }, [initFormulaList])
 
@@ -41,7 +40,15 @@ function TreeDisplay() {
                 </div>
             </>
         )
-    }, [])
+    }, [formattedTreeData])
+
+    const [expandKeys, setExpandKeys] = React.useState<string[]>([])
+
+    React.useEffect(() => {
+        const allKeys = getAllNodeKeys(formattedTreeData)
+
+        setExpandKeys(allKeys)
+    }, [formattedTreeData])
 
     return (
         <div style={{ width: '100%', minHeight: 400 }}>
@@ -51,9 +58,21 @@ function TreeDisplay() {
                 showLine // 显示层级连接线，可选
                 showIcon // 显示节点图标，可选
                 defaultExpandAll={true} // 是否默认展开所有，false=手动展开
+                expandedKeys={expandKeys}
             />
         </div>
     )
+}
+
+function getAllNodeKeys(treeNodes: TreeDisplayData[]) {
+    const keys: string[] = []
+
+    treeNodes.forEach((n) => {
+        keys.push(n.key)
+        keys.push(...getAllNodeKeys(n.children))
+    })
+
+    return keys
 }
 
 export default TreeDisplay
