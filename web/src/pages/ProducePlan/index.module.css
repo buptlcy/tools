@@ -10,7 +10,7 @@
 
 /* 核心卡片容器：美化阴影+圆角 */
 .query-page-card {
-  max-width: 1440px;
+  /* max-width: 1440px; */
   margin: 0 auto;
   border-radius: 12px !important; /* 覆盖antd默认样式 */
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.04) !important;
