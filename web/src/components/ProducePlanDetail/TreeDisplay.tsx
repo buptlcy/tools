@@ -9,6 +9,10 @@ import itemUtils from '../../utils/items'
 import '../../styles/sprite-item.css'
 import '../../styles/sprite-building.css'
 
+function toFixed2(num: number): number {
+    return Math.round(Number(num) * 100) / 100
+}
+
 // 纯净树形组件
 function TreeDisplay() {
     const { initFormulaList, handleFormulaChange } = useProducePlanContext()
@@ -20,10 +24,15 @@ function TreeDisplay() {
     const titleRenderer = React.useCallback((data: TreeDisplayData) => {
         const itemName = itemUtils.getFormulaOutputName(data)
 
+        const buildingCount = data.buildingCount ? toFixed2(data.buildingCount) : '一些'
+        const rapid = data.rapid ? toFixed2(data.rapid) : '一些'
+
+        const allAvailableFormulas = itemUtils.getOptionsByName(itemName)
+
         return (
             <>
                 <div style={{ display: 'flex', alignItems: 'center' }}>
-                    {data.rapid ?? '一些'}
+                    {rapid}
                     {' '}
                     *
                     <div style={{ width: '32px', height: '32px', marginRight: '6px' }}>
@@ -39,7 +48,7 @@ function TreeDisplay() {
                     </span>
                     <span style={{ margin: '0 6px' }}>=</span>
 
-                    {data.buildingCount ?? '一些'}
+                    {buildingCount}
                     {' '}
                     *
                     <div style={{ width: '32px', height: '32px', marginRight: '6px' }}>
@@ -52,14 +61,19 @@ function TreeDisplay() {
                     <span>
                         {data.building}
                     </span>
-                    <Select
-                        options={itemUtils.getOptionsByName(itemName)}
-                        style={{ width: '225px', margin: '0px 6px' }}
-                        defaultValue={itemName}
-                        size="small"
-                        onChange={e => handleFormulaChange(data.id!, data.rapid ?? 0, e)}
-                    >
-                    </Select>
+                    {
+                        allAvailableFormulas.length > 1 && (
+                            <Select
+                                options={allAvailableFormulas}
+                                style={{ width: '600px', margin: '0px 6px' }}
+                                defaultValue={itemName}
+                                size="small"
+                                onChange={e => handleFormulaChange(data.id!, data.rapid ?? 0, e)}
+                            >
+                            </Select>
+                        )
+                    }
+
                 </div>
             </>
         )
@@ -83,7 +97,7 @@ function TreeDisplay() {
                 defaultExpandAll={true} // 是否默认展开所有，false=手动展开
                 expandedKeys={expandKeys}
             />
-            {JSON.stringify(formattedTreeData)}
+            {/* {JSON.stringify(formattedTreeData)} */}
         </div>
     )
 }

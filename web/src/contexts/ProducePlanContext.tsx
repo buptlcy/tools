@@ -42,8 +42,6 @@ export const ProducePlanProvider: React.FC<React.PropsWithChildren> = ({ childre
         // 根据用户选中之生产计划，生成默认配方list
         const defaultFormulaList = itemUtils.getDefaultFormulaListFromSearch(searchParams)
         setInitFormulaList(defaultFormulaList)
-
-        console.log(defaultFormulaList)
     }, [searchParams])
 
     return (

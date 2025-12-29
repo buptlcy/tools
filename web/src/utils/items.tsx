@@ -1,3 +1,4 @@
+import type React from 'react'
 import type { CalculatedFormulaTreeNode, Formula, SearchParams, TreeDisplayData } from
     '../components/ProducePlanSearch/types'
 import spriteItem from '../assets/sprite-item.png'
@@ -40,12 +41,17 @@ function formatFormulas() {
             alternative: 0,
         }
 
-        const {
+        let {
             name,
+            building,
         } = _formula
 
         if (name.includes('替代')) {
             _formula.alternative = 1
+        }
+
+        if (building === '资源抽取器' && ['水', '原油'].includes(name)) {
+            name = `资源抽取器-${name}`
         }
 
         formattedFormulas[name] = _formula
@@ -70,13 +76,19 @@ function getCss(name: string, targetSize: number) {
 
     const name1 = (formula ? getFormulaOutputName(formula) : name) as keyof typeof itemsPosition
 
-    const originSize = itemsPosition[name1].width
-    const ratio = targetSize / originSize
+    try {
+        const originSize = itemsPosition[name1].width
+        const ratio = targetSize / originSize
 
-    return {
-        backgroundImage: `url(${spriteItem})`,
-        transform: `scale(${ratio})`,
-        transformOrigin: '0 0',
+        return {
+            backgroundImage: `url(${spriteItem})`,
+            transform: `scale(${ratio})`,
+            transformOrigin: '0 0',
+        }
+    }
+    catch (_u: unknown) {
+        console.error(_u)
+        console.error('get css error name is : ', name1)
     }
 }
 
@@ -106,7 +118,21 @@ function getDefaultFormulaListFromSearch(searchParams: SearchParams) {
 function updateFormula(formulaName: string, rapid: number) {
     const topLevelFormula = formulas[formulaName]!
 
-    const buildingCount = rapid / (topLevelFormula.output[0]?.rapid ?? 1)
+    let outputIndex = 0
+
+    if (topLevelFormula.output.some(v => !v.name)) {
+        let i = 0
+        let max = 0
+        while (i < topLevelFormula.output.length) {
+            if (topLevelFormula.output[i]!.rapid > max) {
+                max = topLevelFormula.output[i]!.rapid
+                outputIndex = i
+            }
+            i++
+        }
+    }
+
+    const buildingCount = rapid / (topLevelFormula.output[outputIndex]?.rapid ?? 1)
 
     const defaultFormulas = recursiveGetFormula([{ ...topLevelFormula, rapid, buildingCount }])
 
@@ -132,14 +158,28 @@ function unfix(name: string) {
 function recursiveGetFormula(topLevelFormulas: CalculatedFormulaTreeNode[]) {
     return topLevelFormulas.map((f) => {
         const { input, output, rapid = 0 } = f
-        const nextLevelFromulas = input.map(({ name }) => {
+        const nextLevelFromulas = input.map(({ name, count }) => {
             const patchName = fix(name)
 
-            const nextLevelFormula = formulas[patchName]!
-            const nextLevelOutput = nextLevelFormula.output[0]
+            const nextLevelFormula = formulas[patchName] ?? formulas[`资源抽取器-${patchName}`]!
+
+            let index = 0
+            if (nextLevelFormula.output.some(v => !v.name)) {
+                let i = 0
+                let max = 0
+                while (i < nextLevelFormula.output.length) {
+                    if (nextLevelFormula.output[i]?.rapid ?? max < 0) {
+                        max = nextLevelFormula.output[i]?.rapid ?? 0
+                        index = i
+                    }
+                    i++
+                }
+            }
+
+            const nextLevelOutput = nextLevelFormula.output[index]
             const thisLevelOutput = output[0]
 
-            const nextLevelRapid = (nextLevelOutput?.rapid ?? 0) * rapid / (thisLevelOutput?.rapid ?? 1)
+            const nextLevelRapid = (count ?? 0) * rapid / (thisLevelOutput?.count ?? 1)
             const nextLevelbuldingCount = nextLevelRapid / (nextLevelOutput?.rapid ?? 1)
 
             return { ...nextLevelFormula, rapid: nextLevelRapid, buildingCount: nextLevelbuldingCount }
@@ -163,16 +203,70 @@ function formatTreeDisplayData(originTreeNodeList: CalculatedFormulaTreeNode[]) 
     return treeData
 }
 
-function getOptionsByName(name: string) {
-    const result: { value: string, label: string }[] = []
+function optionRender(info: Formula) {
+    const { output, input, name, building } = info
+    const itemName = output[0] ? output[0].name ? output[0].name : output.find(o => o.name)?.name : info.name
+    const count = output[0]?.count ?? 0
 
-    Object.entries(formulas).forEach(([_, formula]) => {
+    const inputList = input.map((product, index) => {
+        return (
+            <div style={
+                { display: 'flex', marginRight: '4px' }
+            }
+            >
+                {index === 0 ? '' : '+'}
+                {product.count}
+                {' '}
+                *
+                <div style={{ width: '24px', height: '24px', marginRight: '6px' }}>
+                    <div
+                        className={`iconitem- icon-item-${product.name}`}
+                        style={getCss(product.name, 24)}
+                    >
+                    </div>
+                </div>
+                {product.name}
+            </div>
+        )
+    })
+
+    return (
+        <div style={{ display: 'flex', alignItems: 'center' }}>
+            <span style={{ marginRight: '4px' }}>
+                {name}
+                {`\(${building}\)`}
+                {inputList.length ? ':' : ''}
+            </span>
+            {
+                inputList.length > 0 && (
+                    < >
+                        <span>
+                            {count}
+                            *
+                            {itemName}
+                        </span>
+                        =
+                        {inputList}
+                    </>
+                )
+            }
+
+        </div>
+    )
+}
+
+console.log(99999, formulas)
+
+function getOptionsByName(name: string) {
+    const result: { value: string, label: React.ReactNode }[] = []
+
+    Object.entries(formulas).forEach(([fName, formula]) => {
         const { output } = formula
 
         if (output.some(item => item.name === fix(name))) {
             result.push({
-                value: formula.name,
-                label: formula.name,
+                value: fName,
+                label: optionRender(formula),
             })
         }
     })
@@ -187,8 +281,12 @@ function getFormulaOutputName<T extends Formula = Formula>(formula: T) {
         return name
     }
 
-    // 总是在第一位
-    return output[0]!.name
+    if (output[0]!.name) {
+        // 总是在第一位
+        return output[0]!.name
+    }
+
+    return output.find(p => p.name)!.name
 }
 
 function getFormulaByFormulaName(name: string) {
