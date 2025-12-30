@@ -3,15 +3,12 @@ import { Select, Tree } from 'antd'
 import React from 'react'
 
 import { useProducePlanContext } from '../../contexts/ProducePlanContext'
+import utils from '../../utils'
 import buildingUtils from '../../utils/building'
 import itemUtils from '../../utils/items'
 
 import '../../styles/sprite-item.css'
 import '../../styles/sprite-building.css'
-
-function toFixed2(num: number): number {
-    return Math.round(Number(num) * 100) / 100
-}
 
 // 纯净树形组件
 function TreeDisplay() {
@@ -24,8 +21,8 @@ function TreeDisplay() {
     const titleRenderer = React.useCallback((data: TreeDisplayData) => {
         const itemName = itemUtils.getFormulaOutputName(data)
 
-        const buildingCount = data.buildingCount ? toFixed2(data.buildingCount) : '一些'
-        const rapid = data.rapid ? toFixed2(data.rapid) : '一些'
+        const buildingCount = data.buildingCount ? utils.toFixed2(data.buildingCount) : '一些'
+        const rapid = data.rapid ? utils.toFixed2(data.rapid) : '一些'
 
         const allAvailableFormulas = itemUtils.getOptionsByName(itemName)
 

@@ -203,7 +203,7 @@ function formatTreeDisplayData(originTreeNodeList: CalculatedFormulaTreeNode[]) 
     return treeData
 }
 
-function optionRender(info: Formula) {
+export function optionRender(info: Formula) {
     const { output, input, name, building } = info
     const itemName = output[0] ? output[0].name ? output[0].name : output.find(o => o.name)?.name : info.name
     const count = output[0]?.count ?? 0
@@ -255,8 +255,6 @@ function optionRender(info: Formula) {
     )
 }
 
-console.log(99999, formulas)
-
 function getOptionsByName(name: string) {
     const result: { value: string, label: React.ReactNode }[] = []
 
@@ -293,6 +291,105 @@ function getFormulaByFormulaName(name: string) {
     return formulas[name]
 }
 
+function recursiveGetProductList(
+    inputName: string,
+    tr: CalculatedFormulaTreeNode,
+    products: Record<string, CalculatedFormulaTreeNode[]>,
+) {
+    const next = (tr.children ?? []).find(o => getFormulaOutputName(o) === inputName)
+
+    if (next) {
+        if (products[inputName]) {
+            products[inputName]!.push({
+                ...next,
+            })
+        }
+        else {
+            products[inputName] = [{
+                ...next,
+            }]
+        }
+
+        const { input } = next
+        input.forEach((i) => {
+            recursiveGetProductList(i.name, next, products)
+        })
+    }
+}
+
+function getProductListFromFormulaList(list: CalculatedFormulaTreeNode[]) {
+    const products: Record<string, CalculatedFormulaTreeNode[]> = {}
+
+    list.forEach((treeNode) => {
+        // 第一层
+        const { output, name, input } = treeNode
+
+        let productName = name
+        if (output.length !== 0) {
+            if (output.some(o => !o.name)) {
+                productName = output.find(o => o.name)?.name ?? name
+            }
+            else {
+                productName = output[0]?.name ?? name
+            }
+        }
+
+        if (products[productName]) {
+            products[productName]!.push({
+                ...treeNode,
+            })
+        }
+        else {
+            products[productName] = [{
+                ...treeNode,
+            }]
+        }
+
+        // 后续层，依次找input
+        input.forEach((i) => {
+            recursiveGetProductList(i.name, treeNode, products)
+        })
+    })
+
+    return products
+}
+
+function getBuildingListFromFormulaList(list: CalculatedFormulaTreeNode[]) {
+    const buildingList: Record<string, CalculatedFormulaTreeNode[]> = {}
+
+    list.forEach((treeNode) => {
+        // 第一层
+        const { children, building } = treeNode
+
+        if (buildingList[building]) {
+            buildingList[building]!.push({
+                ...treeNode,
+            })
+        }
+        else {
+            buildingList[building] = [{
+                ...treeNode,
+            }]
+        }
+
+        // 后续层，依次找input
+        const recursiveResult = getBuildingListFromFormulaList(children ?? [])
+
+        Object.entries(recursiveResult).forEach(([building, result]) => {
+            if (buildingList[building]) {
+                buildingList[building]!.push(...result)
+            }
+            else {
+                buildingList[building] = [
+                    ...result,
+                ]
+            }
+        })
+    })
+
+    return buildingList
+}
+
 export default {
     options,
     getDefaultFormulaListFromSearch,
@@ -301,5 +398,8 @@ export default {
     getCss,
     getFormulaOutputName,
     updateFormula,
+    optionRender,
+    getProductListFromFormulaList,
+    getBuildingListFromFormulaList,
     unfix,
 }

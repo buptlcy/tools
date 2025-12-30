@@ -3,7 +3,9 @@ import { Empty, Spin, Tabs } from 'antd'
 import TabPane from 'antd/es/tabs/TabPane'
 import React from 'react'
 import { useProducePlanContext } from '../../contexts/ProducePlanContext'
+import BuildingDisplay from './BuildingDisplay'
 import styles from './index.module.css' // 预留样式文件，可自定义样式
+import ProductDisplay from './ProductDisplay'
 import TreeDisplay from './TreeDisplay'
 
 // 组件接收的props类型
@@ -27,9 +29,14 @@ function renderTabContent(key: DisplayType) {
     if (key === DisplayType.Tree) {
         return <TreeDisplay />
     }
-    else {
-        return null
+    else if (key === DisplayType.Item) {
+        return <ProductDisplay />
     }
+    else if (key === DisplayType.Building) {
+        return <BuildingDisplay />
+    }
+
+    return null
 }
 
 // 搜索结果组件核心
