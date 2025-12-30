@@ -71,11 +71,6 @@ function renderHeader(itemName: string, productList: CalculatedFormulaTreeNode[]
 function renderProduct(product: CalculatedFormulaTreeNode) {
     return (
         <div style={{ display: 'flex', alignItems: 'center' }}>
-            <span>
-                {product.name}
-                {`(${utils.toFixed2(product.rapid ?? 0)}/分钟)`}
-            </span>
-            <Divider orientation="vertical" />
             <div style={{ display: 'flex', alignItems: 'center', marginLeft: '8px' }}>
                 {utils.toFixed2(product.buildingCount ?? 0) }
                 {' '}
@@ -91,6 +86,17 @@ function renderProduct(product: CalculatedFormulaTreeNode) {
                     {product.building}
                 </span>
             </div>
+            <Divider orientation="vertical" />
+            <span>
+                {product.name}
+                {`(${utils.toFixed2(product.rapid ?? 0)}/分钟)`}
+
+            </span>
+            <Divider orientation="vertical" />
+            <span>
+                {itemUtils.optionRender(product)}
+            </span>
+
         </div>
     )
 }

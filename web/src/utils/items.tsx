@@ -1,6 +1,7 @@
 import type React from 'react'
 import type { CalculatedFormulaTreeNode, Formula, FormulaItem, SearchParams, TreeDisplayData } from
     '../components/ProducePlanSearch/types'
+import utils from '.'
 import spriteItem from '../assets/sprite-item.png'
 import allFormulas from '../data/all_formula.json'
 import itemsPosition from '../data/sprite-position.json'
@@ -389,6 +390,45 @@ function getBuildingListFromFormulaList(list: CalculatedFormulaTreeNode[]) {
     return buildingList
 }
 
+function findAddtionalProduct(prime: string, data: CalculatedFormulaTreeNode) {
+    const { rapid, output } = data
+    const meaningfulOutput = output.filter(o => o.name)
+
+    if (meaningfulOutput.length <= 1) {
+        return null
+    }
+
+    const addtionalOutput = meaningfulOutput.filter(o => o.name !== prime)
+    const primeOutput = meaningfulOutput.find(o => o.name === prime)!
+
+    return (
+        <div style={{ display: 'flex', alignItems: 'center' }}>
+            副产物:
+            {addtionalOutput.map((item) => {
+                const itemRapid = ((item.rapid ?? 0) / (primeOutput.rapid ?? 1)) * (rapid ?? 0)
+
+                return (
+                    <div style={{ margin: '0px 6px', display: 'flex', alignItems: 'center' }}>
+                        {utils.toFixed2(itemRapid)}
+                        {' '}
+                        *
+                        <div style={{ width: '32px', height: '32px', marginRight: '6px' }}>
+                            <div
+                                className={`iconitem- icon-item-${item.name}`}
+                                style={getCss(item.name, 32)}
+                            >
+                            </div>
+                        </div>
+                        <span>
+                            {item.name}
+                        </span>
+                    </div>
+                )
+            })}
+        </div>
+    )
+}
+
 export default {
     options,
     getDefaultFormulaListFromSearch,
@@ -400,5 +440,6 @@ export default {
     optionRender,
     getProductListFromFormulaList,
     getBuildingListFromFormulaList,
+    findAddtionalProduct,
     unfix,
 }

@@ -10,45 +10,6 @@ import itemUtils from '../../utils/items'
 import '../../styles/sprite-item.css'
 import '../../styles/sprite-building.css'
 
-function findAddtionalProduct(prime: string, data: TreeDisplayData) {
-    const { rapid, output } = data
-    const meaningfulOutput = output.filter(o => o.name)
-
-    if (meaningfulOutput.length <= 1) {
-        return null
-    }
-
-    const addtionalOutput = meaningfulOutput.filter(o => o.name !== prime)
-    const primeOutput = meaningfulOutput.find(o => o.name === prime)!
-
-    return (
-        <div style={{ display: 'flex', alignItems: 'center' }}>
-            副产物:
-            {addtionalOutput.map((item) => {
-                const itemRapid = ((item.rapid ?? 0) / (primeOutput.rapid ?? 1)) * (rapid ?? 0)
-
-                return (
-                    <div style={{ margin: '0px 6px', display: 'flex', alignItems: 'center' }}>
-                        {utils.toFixed2(itemRapid)}
-                        {' '}
-                        *
-                        <div style={{ width: '32px', height: '32px', marginRight: '6px' }}>
-                            <div
-                                className={`iconitem- icon-item-${item.name}`}
-                                style={itemUtils.getCss(item.name, 32)}
-                            >
-                            </div>
-                        </div>
-                        <span>
-                            {item.name}
-                        </span>
-                    </div>
-                )
-            })}
-        </div>
-    )
-}
-
 // 纯净树形组件
 function TreeDisplay() {
     const { initFormulaList, handleFormulaChange } = useProducePlanContext()
@@ -108,8 +69,7 @@ function TreeDisplay() {
                             </Select>
                         )
                     }
-                    {findAddtionalProduct(itemName, data)}
-
+                    {itemUtils.findAddtionalProduct(itemName, data)}
                 </div>
             </>
         )
