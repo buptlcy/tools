@@ -1,5 +1,5 @@
 import type React from 'react'
-import type { CalculatedFormulaTreeNode, Formula, SearchParams, TreeDisplayData } from
+import type { CalculatedFormulaTreeNode, Formula, FormulaItem, SearchParams, TreeDisplayData } from
     '../components/ProducePlanSearch/types'
 import spriteItem from '../assets/sprite-item.png'
 import allFormulas from '../data/all_formula.json'
@@ -203,12 +203,8 @@ function formatTreeDisplayData(originTreeNodeList: CalculatedFormulaTreeNode[]) 
     return treeData
 }
 
-export function optionRender(info: Formula) {
-    const { output, input, name, building } = info
-    const itemName = output[0] ? output[0].name ? output[0].name : output.find(o => o.name)?.name : info.name
-    const count = output[0]?.count ?? 0
-
-    const inputList = input.map((product, index) => {
+function formulaItemRender(list: FormulaItem[]) {
+    return list.map((product, index) => {
         return (
             <div style={
                 { display: 'flex', marginRight: '4px' }
@@ -229,6 +225,13 @@ export function optionRender(info: Formula) {
             </div>
         )
     })
+}
+
+export function optionRender(info: Formula) {
+    const { output, input, name, building } = info
+
+    const inputList = formulaItemRender(input)
+    const outputList = formulaItemRender(output)
 
     return (
         <div style={{ display: 'flex', alignItems: 'center' }}>
@@ -240,11 +243,7 @@ export function optionRender(info: Formula) {
             {
                 inputList.length > 0 && (
                     < >
-                        <span>
-                            {count}
-                            *
-                            {itemName}
-                        </span>
+                        {outputList}
                         =
                         {inputList}
                     </>
